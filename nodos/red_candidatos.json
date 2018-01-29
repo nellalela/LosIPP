@@ -1,0 +1,34 @@
+{
+"nodes":[
+    {"id": "Meade", "grupo": 1, "nombre": "José Antonio Meade Kuribeña"},
+    {"id": "Videgaray", "grupo": 1, "nombre": "Luis Videgaray"},
+    {"id": "Gonzalez", "grupo": 1, "nombre": "José González Anaya"},
+    {"id": "Rubio", "grupo": 1, "nombre": "Vanessa Rubio"},
+    {"id": "Arriola", "grupo": 1, "nombre": "Mikel Arriola"},
+    {"id": "Gurria", "grupo": 1, "nombre": "José Á. Gurría"},
+    {"id": "Vazquez", "grupo": 1, "nombre": "Nacho Vázquez"},
+    {"id": "delRio", "grupo": 1, "nombre": "Eduardo del Río"},
+    {"id": "Suarez", "grupo": 1, "nombre": "Emilio Suárez"},
+    {"id": "Yunes", "grupo": 1, "nombre": "Pepe Yunes"},
+    {"id": "Chidiac", "grupo": 1, "nombre": "Estefan Chidiac"},
+    {"id": "Aguade", "grupo": 1, "nombre": "Jaime González Aguade"},
+    {"id": "Martel", "grupo": 1, "nombre": "José Ramón Martel"},
+    {"id": "Lozano", "grupo": 1, "nombre": "Javier Lozano"}
+],
+ "links": [
+    {"source": "Meade", "target": "Videgaray", "value": 5},
+    {"source": "Meade", "target": "Gonzalez", "value": 5},
+    {"source": "Meade", "target": "Rubio", "value": 5},
+    {"source": "Meade", "target": "Arriola", "value": 5},
+    {"source": "Meade", "target": "Gurria", "value": 5},
+    {"source": "Meade", "target": "Vazquez", "value": 5},
+    {"source": "Meade", "target": "delRio", "value": 5},
+    {"source": "Meade", "target": "Suarez", "value": 5},
+    {"source": "Meade", "target": "Yunes", "value": 5},
+    {"source": "Meade", "target": "Chidiac", "value": 5},
+    {"source": "Meade", "target": "Aguade", "value": 5},
+    {"source": "Meade", "target": "Martel", "value": 5},
+    {"source": "Meade", "target": "Lozno", "value": 5}
+    
+ ]
+}

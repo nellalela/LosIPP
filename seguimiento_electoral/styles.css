@@ -1,0 +1,18 @@
+.header {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#mapid {
+	min-height: 580px;
+    min-width: 100%;
+}
+
+.mapa {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.timeline {
+    margin-bottom: 50px;
+}

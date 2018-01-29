@@ -1,0 +1,111 @@
+.title h3 {
+	font-size: 44px;
+	font-family: 'Roboto Slab', serif;
+	overflow-wrap: break-word;
+	color: #7c7c7c;
+	margin-bottom: 35px;
+}
+
+.explora {
+	background-color: rgba(241,241,241,0.6);
+	color: #3f3f3f;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 30px 0 0 30px;
+	min-height: 100%;
+}
+
+.explora h4 {
+	margin-top: 25px;
+}
+
+.explora .lista {
+	font-size: 15px;
+}
+
+.explora mat-slider {
+	margin-top: 15px;
+}
+
+.explora .national {
+	font-size: 14px;
+}
+
+#mapid {
+	min-height: 700px;
+	min-width: 100%;
+	margin-left: -15px;
+}
+
+#mapid::ng-deep .info {
+	background-color: rgba(241,241,241,0.5);
+	opacity: 0.9;
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+}
+
+#mapid::ng-deep .info h4 {
+	font-size: 19px;
+}
+
+#mapid::ng-deep .info p {
+	font-size: 15px;
+}
+
+#mapid::ng-deep .info.legend {
+	text-align: left;
+	padding: 4px 4px 4px 4px;
+}
+
+#mapid::ng-deep .info.legend i {
+	font-size: 18px;
+}
+
+@media screen and (max-width: 991px) {
+	.explora {
+		text-align: center;
+		border-radius: 0;
+	}
+
+	.mapcol {
+		padding: 0;
+	}
+
+	.mapcol #mapid {
+		min-height: 300px;
+	}
+
+	.mapcol #mapid::ng-deep .info {
+		margin-bottom: 35px;
+	}
+
+	.mapcol #mapid::ng-deep .info h4 {
+		font-size: 20px;
+	}
+
+	.mapcol #mapid::ng-deep .info p {
+		font-size: 12px;
+	}
+
+	.mapcol #mapid::ng-deep .info.legend {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.title h3 {
+		font-size: 32px;
+	}
+}
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}

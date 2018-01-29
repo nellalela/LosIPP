@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+
+</style>
+
+<svg width="960" height="900"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var data = {
+"nodes":[
+    {"id": "Meade", "grupo": 1, "nombre": "José Antonio Meade Kuribeña"},
+    {"id": "Videgaray", "grupo": 1, "nombre": "Luis Videgaray"},
+    {"id": "Gonzalez", "grupo": 1, "nombre": "José González Anaya"},
+    {"id": "Rubio", "grupo": 1, "nombre": "Vanessa Rubio"},
+    {"id": "Arriola", "grupo": 1, "nombre": "Mikel Arriola"},
+    {"id": "Gurria", "grupo": 1, "nombre": "José Á. Gurría"},
+    {"id": "Vazquez", "grupo": 1, "nombre": "Nacho Vázquez"},
+    {"id": "delRio", "grupo": 1, "nombre": "Eduardo del Río"},
+    {"id": "Suarez", "grupo": 1, "nombre": "Emilio Suárez"},
+    {"id": "Yunes", "grupo": 1, "nombre": "Pepe Yunes"},
+    {"id": "Chidiac", "grupo": 1, "nombre": "Estefan Chidiac"},
+    {"id": "Aguade", "grupo": 1, "nombre": "Jaime González Aguade"},
+    {"id": "Martel", "grupo": 1, "nombre": "José Ramón Martel"},
+    {"id": "Lozano", "grupo": 1, "nombre": "Javier Lozano"}
+],
+ "links": [
+    {"source": "Meade", "target": "Videgaray", "value": 5},
+    {"source": "Meade", "target": "Gonzalez", "value": 5},
+    {"source": "Meade", "target": "Rubio", "value": 5},
+    {"source": "Meade", "target": "Arriola", "value": 5},
+    {"source": "Meade", "target": "Gurria", "value": 5},
+    {"source": "Meade", "target": "Vazquez", "value": 5},
+    {"source": "Meade", "target": "delRio", "value": 5},
+    {"source": "Meade", "target": "Suarez", "value": 5},
+    {"source": "Meade", "target": "Yunes", "value": 5},
+    {"source": "Meade", "target": "Chidiac", "value": 5},
+    {"source": "Meade", "target": "Aguade", "value": 5},
+    {"source": "Meade", "target": "Martel", "value": 5},
+    {"source": "Meade", "target": "Lozano", "value": 5}
+    
+ ]
+}
+
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+    var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(300).strength(1))
+    .force("charge", d3.forceManyBody())
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+//   d3.json("./red_candidatos.json", function(error, graph){
+//      if (error) throw error;
+//    })
+
+
+   var link = svg.append("g")
+      .attr("class", "links")
+    .selectAll("line")
+    .data(data.links)
+    .enter().append("line");
+
+   var node = svg.append("g")
+    .attr("class", "nodes")
+    .selectAll("circle")
+    .data(data.nodes)
+    .enter().append("circle")
+        .attr("r", 30)
+        .attr("fill", "black")
+        .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended));
+
+  // var node = svg.append("g")
+  //     .attr("class", "nodes")
+  //     .selectAll("image")
+  //     .data(data.nodes)
+  //     .enter().append("image")
+  //     .attr("xlink:href", "https://github.com/favicon.ico")
+      
+  //     .attr("width", 30)
+  //     .attr("height", 30)
+  //     .call(d3.drag()
+  //       .on("start", dragstarted)
+  //       .on("drag", dragged)
+  //       .on("end", dragended));
+
+    node.append("title")
+        .text(function(d){ return d.nombre; }); 
+
+      simulation 
+        .nodes(data.nodes)
+        .on("tick", ticked);
+        
+        simulation.force("link")
+      .links(data.links);
+
+  function ticked() {
+    link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+  }
+
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}        
+    
+
+</script>
+<body>
+
+    <h1>
+        Meade
+    </h1>
+</body>
