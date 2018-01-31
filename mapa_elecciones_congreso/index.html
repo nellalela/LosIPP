@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/Users/LSUmcbookair/Documents/LosIPP/mapa_elecciones_congreso/styles.css">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -21,7 +21,7 @@
  integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
  crossorigin=""></script>
 
- <script src="mexican_states.js" type="text/javascript"></script>
+ <script src="/Users/LSUmcbookair/Documents/LosIPP/mapa_elecciones_congreso/mexican_states.js" type="text/javascript"></script>
 
  
 
@@ -34,13 +34,15 @@
                 <h2>Candidatos Congreso</h2>  
               
                   <div class="row mapa">
-                <div class= "col-lg-9 col-md-10 col-sm-12">
+                <div class= "col-lg-6 col-md-9 col-sm-12">
                   <div id="mapid"></div>
                 </div>
-                <div class= "col-lg-3 col-md-2 col-sm-12 text-center">
+                <div class= "col-lg-6 col-md-3 col-sm-12 datos">
+                   <div class="container-fluid d-block">
                         <div class="information">
-                            <p>Candidatos</p>
+                            
                         </div>
+                      </div>
                 </div>
                 
                 </div> 
@@ -59,7 +61,7 @@ var mymap = L.map('mapid', {
         zoomSnap: 0,
         zoomDelta: 0.25,
         maxBoundsViscosity: 0.9,
-}).setView([24.132442, -102.852647], 5);
+}).setView([24.132442, -102.852647], 4.5);
 
 //tile layer supplier
 
@@ -71,7 +73,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/
       }).addTo(mymap);
 
 
-      geojson = L.geoJson(states).addTo(mymap);
+      geojson = L.geoJson(states  ).addTo(mymap);
+
+      
+      
 
 
       function highlight(e) {
@@ -127,22 +132,58 @@ info.onAdd = function (mymap) {
 //metodo que sirve para actualizar el controlador basado en la info que le pasamos
 
 info.update =  function(props){
-  /*var pan = props.map(el => {
-    if (isArray(el.PAN) === Array){
-      return '<br />'+ el.PAN;
-    }*/
-
-  //});
+  
 var htmlpan= '';
 
   for ( i = 0; i < props.PAN.length; i++){
-    htmlpan += '<br/>'+props.PAN[i];
-  }
+    htmlpan += "</br>" +"*" + props.PAN[i];
+  };
 
-    return '<h4>Senadores</h4>' +  (props ?
-        '<b>' + props.nombre + '</b><br />' + htmlpan + ''
-        : 'Selecciona un estado');
+  var htmlpri= '';
+
+  for ( i = 0; i < props.PRI.length; i++){
+    htmlpri +=  "</br>"+"*" + props.PRI[i];
+  };
+
+  var htmlprd= '';
+
+  for ( i = 0; i < props.PRD.length; i++){
+    htmlprd +=  "</br>" +"*"+ props.PRD[i];
+  };
+
+  var htmlmorena= '';
+
+  for ( i = 0; i < props.Morena.length; i++){
+    htmlmorena +=  "</br>"+"*" + props.Morena[i];
+  };
+
+  var htmlpvem= '';
+
+for ( i = 0; i < props.PVEM.length; i++){
+  htmlpvem +=  "</br>"+"*" + props.PVEM[i];
 };
+
+var htmlpanal= '';
+
+for ( i = 0; i < props.NuevaAlianza.length; i++){
+  htmlpanal+= "</br>" +"*"+ props.NuevaAlianza[i];
+};
+
+var htmlmc= '';
+
+for ( i = 0; i < props.MC.length; i++){
+  htmlmc+= "</br>"+"*" + props.MC[i];
+};
+
+    return "<div class='text-center'>"+'<h4>Senadores</h4>' +  (props ?
+        // '<b>' + props.nombre + '</b>'+ "<div class='col-12 d-flex'>" +"</br></br>" + "<h6>PAN</h6>" + htmlpan + "</br></br>" + "<h6>PRI</h6>" + htmlpri + "</br></br>" +
+        // "<h6>PRD</h6>" + htmlprd + "</div>" + "<div class='col-12 d-flex'>" + "</br></br>"  +"<h6>Morena</h6>" + htmlmorena + "</br></br>"  + "<h6>PVEM</h6>" + htmlpvem +  "</br></br>"  +"<h6>Nueva Alianza</h6>" + htmlpanal +"</br></br>"  +  "<h6>Movimiento Ciudadano</h6>" + htmlmc + "</div>" + ' '
+        // : 'Selecciona un estado');
+
+        '<b>' + props.nombre +"</div>" + '</b>' + "<br/><div class='row'><div class='col-6'><h5>PAN</h5>"+htmlpan+"</div><div class='col-6'><h5>Morena</h5>"+htmlmorena+"</div></div>"+ "<br/><div class='row'><div class='col-6'><h5>PRI</h5>"+htmlpri+"</div><div class='col-6'><h5>PVEM</h5>"+htmlpvem+"</div></div>"+
+        "<br/><div class='row'><div class='col-6'><h5>PRD</h5>"+htmlprd+"</div><div class='col-6'><h5>Nueva Alianza</h5>"+htmlpanal+"</div></div>"+ 
+        "<br/><div class='row'><div class='col-6'><h5>PRD</h5>"+htmlprd+"</div>" +"":'seleccione');
+        };
 
 info.addTo(mymap);
 

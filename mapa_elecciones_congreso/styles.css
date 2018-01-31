@@ -1,4 +1,9 @@
 #mapid {
-	min-height: 580px;
-    min-width: 100%;
+	min-height: 560px;
+    width: 100%;
+    
+}
+
+.datos{
+    padding: 0;
 }
