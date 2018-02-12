@@ -1,0 +1,26 @@
+
+#mapid {
+	min-height: 700px;
+    width: 100%;
+    
+}
+
+div.leaflet-popup-content > a {
+ color : black;
+}
+
+.logo {
+    height: 24px;
+}
+
+.target > div {
+    display:none;
+}
+
+.target > div:target{
+    display:block;
+}
+
+.foto{
+    height: 125px;
+}
