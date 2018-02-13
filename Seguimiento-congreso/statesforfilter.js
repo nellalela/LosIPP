@@ -16,7 +16,7 @@ var logoMORENA = "https://upload.wikimedia.org/wikipedia/commons/9/94/Morena_par
 
 var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_logo_%28Mexico%29.svg/160px-PES_logo_%28Mexico%29.svg.png";
 
- var states = {
+ var statesforfilter = {
    "type": "FeatureCollection",
     "features": [
       {
@@ -29,7 +29,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
  "properties":{
    "id": 1,
    "estado":"Aguascalientes",
-   "PorMexico": [
+   "candidatos": [
     {
       "nombre": "Antonio Martín del Campo",
       "foto": "http://wrmx00.epimg.net/radio/imagenes/2014/02/11/audios/1392133260_077309_1392154140_noticia_normal.jpg",
@@ -38,7 +38,8 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "comentarios": "Se ha especulado que podría buscar la gubernatura de Aguascalientes en 2019.",
       "partido": "PAN",
       "logo": logoPAN,
-      "coalicion": " Por México al Frente "
+      "estado":"Aguascalientes",
+      "coalicion": "Por México al Frente"
      
     },
     {
@@ -49,19 +50,20 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "comentarios": "",
       "partido": " ",
       "logo": pendiente,
-      "coalicion": " Por México al Frente "
+      "estado":"Aguascalientes",
+      "coalicion": "Por México al Frente"
       
-    }],
-    "TodosporMexico": [
+    },
       {
         "nombre": " Lorena Martínez Rodríguez",
         "foto": " http://alchileaguascalientes.com/wp-content/uploads/2015/05/Lorena.jpg", 
         "tendencia": " ",
         "trayectoria": " Lic. en Derecho. Diputada federal plurinominal de 2000 a 2003 y de 2006 a 2009. Alcalde de Aguascalientes de 2011 a 2013. Procuradora Federal del Consumidor de México de 2014 a 2016.",
         "comentarios": "",
-        "partido": " PRI ",
+        "partido": "PRI",
         "logo": logoPRI,
-        "coalicion": " PRI "
+        "estado":"Aguascalientes",
+        "coalicion": "PRI"
         
 
       },
@@ -71,22 +73,22 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
         "tendencia": " ",
         "trayectoria": "Lic. en Derecho. Diputado local durante la LXI Legislatura. Delegado de la Secretaría de Economía en el estado.",
         "comentarios": "",
-        "partido": " PRI ",
+        "partido": "PRI",
         "logo": logoPRI,
-        "coalicion": " PRI "
+        "estado":"Aguascalientes",
+        "coalicion": "PRI"
         
-      }],
-
-      "JuntosHaremos": [
+      },
         {
           "nombre": "Daniel Gutiérrez Castorena",
           "foto": "https://i1.wp.com/www.lja.mx/wp-content/uploads/2015/04/16482204303_3b92c43d05_z-1.jpg?resize=400%2C242",
           "tendencia": " ",
           "trayectoria": " ",
           "comentarios": "",
-          "partido": " MORENA ",
+          "partido": "MORENA",
           "logo":logoMORENA,
-          "coalicion": " Juntos Haremos Historia "
+          "estado":"Aguascalientes",
+          "coalicion": "Juntos Haremos Historia"
           
 
         },
@@ -96,9 +98,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
           "tendencia": " ",
           "trayectoria": " ",
           "comentarios": "",
-          "partido": " MORENA",
+          "partido": "MORENA",
           "logo": logoMORENA,
-          "coalicion": " Juntos Haremos Historia "
+          "estado":"Aguascalientes",
+          "coalicion": "Juntos Haremos Historia"
           
         }]
 
@@ -114,16 +117,17 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
     "properties":{
      "id": 2,
      "estado":"Baja California",
-     "PorMexico": [
+     "candidatos": [
       {
         "nombre": "Gina Andrea Cruz Blackledge ",
         "foto": "http://sitl.diputados.gob.mx/LXIII_leg/fotos_lxiiiconfondo/433_FOTO_CHICA.jpg ",
         "tendencia": " ",
         "trayectoria": "Lic. en Derecho. Diputada local por la XIX Legislatura. Diputada federal suplente de 2002 a 2003. Diputada federal con licencia. ",
         "comentarios": " ",
-        "partido": "PAN ",
+        "partido": "PAN",
         "logo": logoPAN ,
-        "coalicion": " Por México al Frente"
+        "estado":"Baja California",
+        "coalicion": "Por México al Frente"
        
       },
       {
@@ -134,7 +138,8 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
         "comentarios": " ",
         "partido": "PAN ",
         "logo": logoPAN ,
-        "coalicion": " Por México al Frente"
+        "estado":"Baja California",
+        "coalicion": "Por México al Frente"
        
       },
       {
@@ -143,12 +148,13 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
         "tendencia": " ",
         "trayectoria": " ",
         "comentarios": "",
-        "partido": " PAN",
+        "partido": "PAN",
         "logo":  logoPAN,
-        "coalicion": "Por México al Frente "
+        "estado":"Baja California",
+        "coalicion": "Por México al Frente"
         
-      }],
-      "TodosporMexico": [
+      },
+    
         {
           "nombre": " Alejandro Arregui Ibarra",
           "foto": "http://codiceenlinea.com/wp-content/uploads/2017/07/Los-resultados-del-Sistema-Estatal-Anticorrupci%C3%B3n-depender%C3%A1n-de-su-implementaci%C3%B3n-Alejandro-Arregui-1.jpg ",
@@ -157,7 +163,8 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
           "comentarios": "",
           "partido": " ",
           "logo": logoPRI,
-          "coalicion": "PRI "
+          "estado":"Baja California",
+          "coalicion": "PRI"
           
 
         },
@@ -169,20 +176,22 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
           "comentarios": "",
           "partido": " ",
           "logo": pendiente ,
-          "coalicion": " PRI"
+          "estado":"Baja California",
+          "coalicion": "PRI"
           
-        }],
+        },
 
-        "JuntosHaremos": [
+        
           {
             "nombre": "Jaime Bonilla Valdéz ",
             "foto": "http://static.adnpolitico.com/media/2012/11/12/jaime-bonilla-valdez.jpg ",
             "tendencia": " ",
             "trayectoria": " ",
             "comentarios": "",
-            "partido": "MORENA ",
+            "partido": "MORENA",
             "logo":  logoMORENA ,
-            "coalicion": " Juntos Haremos Historia"
+            "estado":"Baja California",
+            "coalicion": "Juntos Haremos Historia"
             
 
           },
@@ -194,7 +203,8 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": "PES",
             "logo": logoPES ,
-            "coalicion": "Juntos Haremos Historia "
+            "estado":"Baja California",
+            "coalicion": "Juntos Haremos Historia"
             
           }]
  }},
@@ -209,7 +219,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 3,
         "estado":"Baja California Sur",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -218,6 +228,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado":"Baja California Sur",
             "coalicion": " "
            
           },
@@ -229,10 +240,11 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado":"Baja California Sur",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
+         
             {
               "nombre": " ",
               "foto": " ",
@@ -241,6 +253,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado":"Baja California Sur",
               "coalicion": " "
               
   
@@ -253,11 +266,11 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado":"Baja California Sur",
               "coalicion": " "
               
-            }],
+            },
 
-            "JuntosHaremos": [
               {
                 "nombre": " ",
                 "foto": " ",
@@ -266,6 +279,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado":"Baja California Sur",
                 "coalicion": " "
                 
     
@@ -278,6 +292,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado":"Baja California Sur",
                 "coalicion": " "
                 
               }]
@@ -292,7 +307,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 4,
         "estado":"Campeche",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -301,6 +316,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado":"Campeche",
             "coalicion": " "
            
           },
@@ -312,10 +328,11 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado":"Campeche",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
+         
             {
               "nombre": " ",
               "foto": " ",
@@ -324,6 +341,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado":"Campeche",
               "coalicion": " "
               
   
@@ -336,11 +354,12 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado":"Campeche",
               "coalicion": " "
               
-            }],
+            },
 
-            "JuntosHaremos": [
+            
               {
                 "nombre": " ",
                 "foto": " ",
@@ -349,6 +368,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado":"Campeche",
                 "coalicion": " "
                 
     
@@ -361,6 +381,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado":"Campeche",
                 "coalicion": " "
                 
               }]
@@ -376,7 +397,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 7,
         "estado": "Chiapas",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -385,6 +406,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Chiapas",
             "coalicion": " "
            
           },
@@ -396,10 +418,11 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Chiapas",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
+          
             {
               "nombre": " ",
               "foto": " ",
@@ -408,6 +431,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Chiapas",
               "coalicion": " "
               
   
@@ -420,11 +444,12 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Chiapas",
               "coalicion": " "
               
-            }],
+            },
 
-            "JuntosHaremos": [
+            
               {
                 "nombre": " ",
                 "foto": " ",
@@ -433,6 +458,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Chiapas",
                 "coalicion": " "
                 
     
@@ -445,6 +471,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Chiapas",
                 "coalicion": " "
                 
               }]
@@ -460,7 +487,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
          "id": 8,
           "estado": "Chihuahua",
-          "PorMexico": [
+          "candidatos": [
             {
               "nombre": " ",
               "foto": " ",
@@ -469,6 +496,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": " ",
               "partido": " ",
               "logo": pendiente ,
+              "estado": "Chihuahua",
               "coalicion": " "
              
             },
@@ -480,10 +508,11 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente ,
+              "estado": "Chihuahua",
               "coalicion": " "
               
-            }],
-            "TodosporMexico": [
+            },
+           
               {
                 "nombre": " ",
                 "foto": " ",
@@ -492,6 +521,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Chihuahua",
                 "coalicion": " "
                 
     
@@ -504,11 +534,12 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Chihuahua",
                 "coalicion": " "
                 
-              }],
+              },
   
-              "JuntosHaremos": [
+              
                 {
                   "nombre": " ",
                   "foto": " ",
@@ -517,6 +548,8 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
+
+                  "estado": "Chihuahua",
                   "coalicion": " "
                   
       
@@ -529,6 +562,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
+                  "estado": "Chihuahua",
                   "coalicion": " "
                   
                 }]
@@ -544,7 +578,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 5,
         "estado": "Coahuila",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -553,6 +587,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Coahuila",
             "coalicion": " "
            
           },
@@ -564,10 +599,11 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Coahuila",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
+          
             {
               "nombre": " ",
               "foto": " ",
@@ -576,6 +612,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Coahuila",
               "coalicion": " "
               
   
@@ -588,11 +625,12 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Coahuila",
               "coalicion": " "
               
-            }],
+            },
 
-            "JuntosHaremos": [
+            
               {
                 "nombre": " ",
                 "foto": " ",
@@ -601,6 +639,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Coahuila",
                 "coalicion": " "
                 
     
@@ -613,6 +652,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Coahuila",
                 "coalicion": " "
                 
               }]
@@ -628,7 +668,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 10,
         "estado": "Durango",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -637,6 +677,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Durango",
             "coalicion": " "
            
           },
@@ -648,10 +689,11 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Durango",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
+       
             {
               "nombre": " ",
               "foto": " ",
@@ -660,6 +702,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Durango",
               "coalicion": " "
               
   
@@ -672,11 +715,12 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Durango",
               "coalicion": " "
               
-            }],
+            },
 
-            "JuntosHaremos": [
+            
               {
                 "nombre": " ",
                 "foto": " ",
@@ -685,6 +729,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Durango",
                 "coalicion": " "
                 
     
@@ -697,6 +742,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Durango",
                 "coalicion": " "
                 
               }]
@@ -712,7 +758,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 11,
         "estado": "Guanajuato",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -721,6 +767,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Guanajuato",
             "coalicion": " "
            
           },
@@ -732,10 +779,11 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Guanajuato",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
+         
             {
               "nombre": " ",
               "foto": " ",
@@ -744,6 +792,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Guanajuato",
               "coalicion": " "
               
   
@@ -756,11 +805,12 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Guanajuato",
               "coalicion": " "
               
-            }],
+            },
 
-            "JuntosHaremos": [
+           
               {
                 "nombre": " ",
                 "foto": " ",
@@ -769,6 +819,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Guanajuato",
                 "coalicion": " "
                 
     
@@ -781,6 +832,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Guanajuato",
                 "coalicion": " "
                 
               }]
@@ -796,7 +848,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
          "id": 18,
           "estado": "Nayarit",
-          "PorMexico": [
+          "candidatos": [
             {
               "nombre": " ",
               "foto": " ",
@@ -805,6 +857,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": " ",
               "partido": " ",
               "logo": pendiente ,
+              "estado": "Nayarit",
               "coalicion": " "
              
             },
@@ -816,10 +869,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente ,
+              "estado": "Nayarit",
               "coalicion": " "
               
-            }],
-            "TodosporMexico": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -828,6 +881,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Nayarit",
                 "coalicion": " "
                 
     
@@ -840,11 +894,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Nayarit",
                 "coalicion": " "
                 
-              }],
-  
-              "JuntosHaremos": [
+              },
                 {
                   "nombre": " ",
                   "foto": " ",
@@ -853,6 +906,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
+                  "estado": "Nayarit",
                   "coalicion": " "
                   
       
@@ -865,6 +919,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
+                  "estado": "Nayarit",
                   "coalicion": " "
                   
                 }]
@@ -879,7 +934,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 24,
         "estado": "San Luis Potosí",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -888,6 +943,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "San Luis Potosí",
             "coalicion": " "
            
           },
@@ -899,10 +955,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "San Luis Potosí",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -911,6 +967,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "San Luis Potosí",
               "coalicion": " "
               
   
@@ -923,11 +980,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "San Luis Potosí",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -936,6 +992,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "San Luis Potosí",
                 "coalicion": " "
                 
     
@@ -948,6 +1005,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "San Luis Potosí",
                 "coalicion": " "
                 
               }]
@@ -963,7 +1021,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{ 
          "id": 26,
          "estado": "Sonora",
-         "PorMexico": [
+         "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -972,6 +1030,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Sonora",
             "coalicion": " "
            
           },
@@ -983,10 +1042,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Sonora",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -995,6 +1054,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Sonora",
               "coalicion": " "
               
   
@@ -1007,11 +1067,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Sonora",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -1020,6 +1079,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Sonora",
                 "coalicion": " "
                 
     
@@ -1032,6 +1092,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Sonora",
                 "coalicion": " "
                 
               }]
@@ -1048,7 +1109,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{ 
          "id": 25,
           "estado": "Sinaloa",
-          "PorMexico": [
+          "candidatos": [
             {
               "nombre": " ",
               "foto": " ",
@@ -1057,6 +1118,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": " ",
               "partido": " ",
               "logo": pendiente ,
+              "estado": "Sinaloa",
               "coalicion": " "
              
             },
@@ -1068,10 +1130,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente ,
+              "estado": "Sinaloa",
               "coalicion": " "
               
-            }],
-            "TodosporMexico": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -1080,6 +1142,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Sinaloa",
                 "coalicion": " "
                 
     
@@ -1092,11 +1155,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Sinaloa",
                 "coalicion": " "
                 
-              }],
-  
-              "JuntosHaremos": [
+              },
                 {
                   "nombre": " ",
                   "foto": " ",
@@ -1105,6 +1167,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
+                  "estado": "Sinaloa",
                   "coalicion": " "
                   
       
@@ -1117,6 +1180,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
+                  "estado": "Sinaloa",
                   "coalicion": " "
                   
                 }]
@@ -1132,7 +1196,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
 "properties":{
   "id": 28,
   "estado": "Tamaulipas",
-  "PorMexico": [
+  "candidatos": [
     {
       "nombre": " ",
       "foto": " ",
@@ -1141,6 +1205,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "comentarios": " ",
       "partido": " ",
       "logo": pendiente ,
+      "estado": "Tamaulipas",
       "coalicion": " "
      
     },
@@ -1152,10 +1217,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "comentarios": "",
       "partido": " ",
       "logo": pendiente ,
+      "estado": "Tamaulipas",
       "coalicion": " "
       
-    }],
-    "TodosporMexico": [
+    },
       {
         "nombre": " ",
         "foto": " ",
@@ -1164,6 +1229,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
         "comentarios": "",
         "partido": " ",
         "logo": pendiente,
+        "estado": "Tamaulipas",
         "coalicion": " "
         
 
@@ -1176,11 +1242,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
         "comentarios": "",
         "partido": " ",
         "logo": pendiente,
+        "estado": "Tamaulipas",
         "coalicion": " "
         
-      }],
-
-      "JuntosHaremos": [
+      },
         {
           "nombre": " ",
           "foto": " ",
@@ -1189,6 +1254,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
           "comentarios": "",
           "partido": " ",
           "logo": pendiente,
+          "estado": "Tamaulipas",
           "coalicion": " "
           
 
@@ -1201,6 +1267,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
           "comentarios": "",
           "partido": " ",
           "logo": pendiente,
+          "estado": "Tamaulipas",
           "coalicion": " "
           
         }]
@@ -1217,7 +1284,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
          "id": 31,
          "estado": "Yucatán",
-         "PorMexico": [
+         "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -1226,6 +1293,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Yucatán",
             "coalicion": " "
            
           },
@@ -1237,10 +1305,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Yucatán",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -1249,6 +1317,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Yucatán",
               "coalicion": " "
               
   
@@ -1261,11 +1330,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Yucatán",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -1274,6 +1342,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Yucatán",
                 "coalicion": " "
                 
     
@@ -1286,6 +1355,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Yucatán",
                 "coalicion": " "
                 
               }]
@@ -1302,7 +1372,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{ 
         "id": 12,
         "estado": "Guerrero",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -1311,6 +1381,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Guerrero",
             "coalicion": " "
            
           },
@@ -1322,10 +1393,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Guerrero",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -1334,6 +1405,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Guerrero",
               "coalicion": " "
               
   
@@ -1346,11 +1418,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Guerrero",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -1359,6 +1430,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Guerrero",
                 "coalicion": " "
                 
     
@@ -1371,6 +1443,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Guerrero",
                 "coalicion": " "
                 
               }]
@@ -1386,7 +1459,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 16,
         "estado": "Michoacán de Ocampo",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -1395,6 +1468,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Michoacán de Ocampo",
             "coalicion": " "
            
           },
@@ -1406,10 +1480,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Michoacán de Ocampo",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -1418,6 +1492,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Michoacán de Ocampo",
               "coalicion": " "
               
   
@@ -1430,11 +1505,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Michoacán de Ocampo",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -1443,6 +1517,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Michoacán de Ocampo",
                 "coalicion": " "
                 
     
@@ -1455,6 +1530,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Michoacán de Ocampo",
                 "coalicion": " "
                 
               }]
@@ -1471,7 +1547,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
 "properties":{
   "id": 20,
   "estado": "Oaxaca",
-  "PorMexico": [
+  "candidatos": [
     {
       "nombre": " ",
       "foto": " ",
@@ -1480,6 +1556,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "comentarios": " ",
       "partido": " ",
       "logo": pendiente ,
+      "estado": "Oaxaca",
       "coalicion": " "
      
     },
@@ -1491,10 +1568,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "comentarios": "",
       "partido": " ",
       "logo": pendiente ,
+      "estado": "Oaxaca",
       "coalicion": " "
       
-    }],
-    "TodosporMexico": [
+    },
       {
         "nombre": " ",
         "foto": " ",
@@ -1503,6 +1580,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
         "comentarios": "",
         "partido": " ",
         "logo": pendiente,
+        "estado": "Oaxaca",
         "coalicion": " "
         
 
@@ -1515,11 +1593,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
         "comentarios": "",
         "partido": " ",
         "logo": pendiente,
+        "estado": "Oaxaca",
         "coalicion": " "
         
-      }],
-
-      "JuntosHaremos": [
+      },
         {
           "nombre": " ",
           "foto": " ",
@@ -1528,6 +1605,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
           "comentarios": "",
           "partido": " ",
           "logo": pendiente,
+          "estado": "Oaxaca",
           "coalicion": " "
           
 
@@ -1540,6 +1618,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
           "comentarios": "",
           "partido": " ",
           "logo": pendiente,
+          "estado": "Oaxaca",
           "coalicion": " "
           
         }]
@@ -1556,7 +1635,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 23,
        "estado": "Quintana Roo",
-       "PorMexico": [
+       "candidatos": [
         {
           "nombre": " ",
           "foto": " ",
@@ -1565,6 +1644,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
           "comentarios": " ",
           "partido": " ",
           "logo": pendiente ,
+          "estado": "Quintana Roo",
           "coalicion": " "
          
         },
@@ -1576,10 +1656,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
           "comentarios": "",
           "partido": " ",
           "logo": pendiente ,
+          "estado": "Quintana Roo",
           "coalicion": " "
           
-        }],
-        "TodosporMexico": [
+        },
           {
             "nombre": " ",
             "foto": " ",
@@ -1588,6 +1668,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente,
+            "estado": "Quintana Roo",
             "coalicion": " "
             
 
@@ -1600,11 +1681,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente,
+            "estado": "Quintana Roo",
             "coalicion": " "
             
-          }],
-
-          "JuntosHaremos": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -1613,6 +1693,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Quintana Roo",
               "coalicion": " "
               
   
@@ -1625,6 +1706,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Quintana Roo",
               "coalicion": " "
               
             }]
@@ -1640,7 +1722,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 29,
         "estado": "Tlaxcala",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -1649,6 +1731,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Tlaxcala",
             "coalicion": " "
            
           },
@@ -1660,10 +1743,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Tlaxcala",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -1672,6 +1755,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Tlaxcala",
               "coalicion": " "
               
   
@@ -1684,11 +1768,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Tlaxcala",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -1697,6 +1780,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Tlaxcala",
                 "coalicion": " "
                 
     
@@ -1709,6 +1793,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Tlaxcala",
                 "coalicion": " "
                 
               }]
@@ -1724,7 +1809,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 19,
         "estado": "Nuevo León",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -1733,6 +1818,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Nuevo León",
             "coalicion": " "
            
           },
@@ -1744,10 +1830,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Nuevo León",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -1756,6 +1842,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Nuevo León",
               "coalicion": " "
               
   
@@ -1768,11 +1855,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Nuevo León",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -1781,6 +1867,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Nuevo León",
                 "coalicion": " "
                 
     
@@ -1793,6 +1880,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Nuevo León",
                 "coalicion": " "
                 
               }]
@@ -1807,7 +1895,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
          "id": 17,
           "estado": "Morelos",
-          "PorMexico": [
+          "candidatos": [
             {
               "nombre": " ",
               "foto": " ",
@@ -1816,6 +1904,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": " ",
               "partido": " ",
               "logo": pendiente ,
+              "estado": "Morelos",
               "coalicion": " "
              
             },
@@ -1827,10 +1916,11 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente ,
+              "estado": "Morelos",
               "coalicion": " "
               
-            }],
-            "TodosporMexico": [
+            },
+          
               {
                 "nombre": " ",
                 "foto": " ",
@@ -1839,6 +1929,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Morelos",
                 "coalicion": " "
                 
     
@@ -1851,11 +1942,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Morelos",
                 "coalicion": " "
                 
-              }],
-  
-              "JuntosHaremos": [
+              },
                 {
                   "nombre": " ",
                   "foto": " ",
@@ -1864,6 +1954,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
+                  "estado": "Morelos",
                   "coalicion": " "
                   
       
@@ -1876,6 +1967,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
+                  "estado": "Morelos",
                   "coalicion": " "
                   
                 }]
@@ -1891,7 +1983,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 27,
         "estado": "Tabasco",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -1900,6 +1992,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Tabasco",
             "coalicion": " "
            
           },
@@ -1911,10 +2004,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Tabasco",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -1923,6 +2016,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Tabasco",
               "coalicion": " "
               
   
@@ -1935,11 +2029,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Tabasco",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -1948,6 +2041,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Tabasco",
                 "coalicion": " "
                 
     
@@ -1960,6 +2054,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Tabasco",
                 "coalicion": " "
                 
               }]
@@ -1976,7 +2071,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
          "id": 15,
           "estado": "Estado de México",
-          "PorMexico": [
+          "candidatos": [
             {
               "nombre": " ",
               "foto": " ",
@@ -1985,6 +2080,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": " ",
               "partido": " ",
               "logo": pendiente ,
+              "estado": "Estado de México",
               "coalicion": " "
              
             },
@@ -1996,10 +2092,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente ,
+              "estado": "Estado de México",
               "coalicion": " "
               
-            }],
-            "TodosporMexico": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -2008,6 +2104,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Estado de México",
                 "coalicion": " "
                 
     
@@ -2020,11 +2117,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Estado de México",
                 "coalicion": " "
                 
-              }],
-  
-              "JuntosHaremos": [
+              },
                 {
                   "nombre": " ",
                   "foto": " ",
@@ -2033,6 +2129,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
+                  "estado": "Estado de México",
                   "coalicion": " "
                   
       
@@ -2045,6 +2142,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
+                  "estado": "Estado de México",
                   "coalicion": " "
                   
                 }]
@@ -2061,7 +2159,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 32,
         "estado": "Zacatecas",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -2070,6 +2168,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Zacatecas",
             "coalicion": " "
            
           },
@@ -2081,10 +2180,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Zacatecas",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -2093,6 +2192,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Zacatecas",
               "coalicion": " "
               
   
@@ -2105,11 +2205,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Zacatecas",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -2118,6 +2217,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Zacatecas",
                 "coalicion": " "
                 
     
@@ -2130,6 +2230,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Zacatecas",
                 "coalicion": " "
                 
               }]
@@ -2144,7 +2245,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       },"properties":{
         "id": 14,
         "estado": "Jalisco",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -2153,6 +2254,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Jalisco",
             "coalicion": " "
            
           },
@@ -2164,10 +2266,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Jalisco",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -2176,6 +2278,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Jalisco",
               "coalicion": " "
               
   
@@ -2188,11 +2291,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Jalisco",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -2201,6 +2303,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Jalisco",
                 "coalicion": " "
                 
     
@@ -2213,6 +2316,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Jalisco",
                 "coalicion": " "
                 
               }]
@@ -2232,7 +2336,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{ 
          "id": 21,
         "estado": "Puebla",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -2241,6 +2345,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Puebla",
             "coalicion": " "
            
           },
@@ -2252,10 +2357,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Puebla",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -2264,6 +2369,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Puebla",
               "coalicion": " "
               
   
@@ -2276,11 +2382,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Puebla",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -2289,6 +2394,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Puebla",
                 "coalicion": " "
                 
     
@@ -2301,6 +2407,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Puebla",
                 "coalicion": " "
                 
               }]
@@ -2316,7 +2423,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 13,
         "estado": "Hidalgo",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -2325,6 +2432,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Hidalgo",
             "coalicion": " "
            
           },
@@ -2336,10 +2444,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Hidalgo",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -2348,6 +2456,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Hidalgo",
               "coalicion": " "
               
   
@@ -2360,11 +2469,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Hidalgo",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -2373,6 +2481,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Hidalgo",
                 "coalicion": " "
                 
     
@@ -2385,6 +2494,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Hidalgo",
                 "coalicion": " "
                 
               }]
@@ -2401,7 +2511,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{ 
         "id": 30,
          "estado": "Veracruz",
-         "PorMexico": [
+         "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -2410,6 +2520,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Veracruz",
             "coalicion": " "
            
           },
@@ -2421,10 +2532,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
+            "estado": "Veracruz",
             "coalicion": " "
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -2433,6 +2544,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Veracruz",
               "coalicion": " "
               
   
@@ -2445,11 +2557,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
+              "estado": "Veracruz",
               "coalicion": " "
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -2458,6 +2569,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Veracruz",
                 "coalicion": " "
                 
     
@@ -2470,6 +2582,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
+                "estado": "Veracruz",
                 "coalicion": " "
                 
               }]
@@ -2485,7 +2598,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
       "properties":{
         "id": 22,
         "estado": "Querétaro",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "luis  carlo martnx torres",
             "foto": "https://coo5.tuvotacion.com/imagenes_unicas/cual-perrito-es-mas-tierno-450089.jpg",
@@ -2494,6 +2607,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
             "partido": "PAN",
             "logo":logoPAN ,
+            "estado": "Querétaro",
             "coalicion": "Por México al Frente"
            
           },
@@ -2505,10 +2619,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
             "partido": "PAN",
             "logo":logoPAN,
+            "estado": "Querétaro",
             "coalicion": "Por México al Frente"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "pedro jhbchdb",
               "foto": "https://coo5.tuvotacion.com/imagenes_unicas/cual-perrito-es-mas-tierno-450089.jpg",
@@ -2517,6 +2631,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
               "partido": "PRI",
               "logo":logoPRI,
+              "estado": "Querétaro",
               "coalicion": "PRI"
               
   
@@ -2529,10 +2644,9 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
               "partido": "PRI",
               "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pri-128x128.jpg",
+              "estado": "Querétaro",
               "coalicion": "Por México al Frente"
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "pepe jneej juna jejfb",
                 "foto": "https://coo5.tuvotacion.com/imagenes_unicas/cual-perrito-es-mas-tierno-450089.jpg",
@@ -2541,6 +2655,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
                 "partido": "PRD",
                 "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pri-128x128.jpg",
+                "estado": "Querétaro",
                 "coalicion": "Juntos Haremos Historia"
                 
     
@@ -2553,6 +2668,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
                 "partido": "PRD",
                 "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pri-128x128.jpg",
+                "estado": "Querétaro",
                 "coalicion": "Por México al Frente"
                 
               }]
@@ -2570,7 +2686,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
     "properties":{
     "id": 9,
     "estado": "Ciudad de México",
-    "PorMexico": [
+    "candidatos": [
       {
         "nombre": "luisa dhkosfdb",
         "foto": "https://coo5.tuvotacion.com/imagenes_unicas/cual-perrito-es-mas-tierno-450089.jpg",
@@ -2579,6 +2695,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
         "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
         "partido": "PAN",
         "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pan-128x128.jpg",
+        "estado": "Ciudad de México",
         "coalicion": "Por México al Frente"
       },
       {
@@ -2589,10 +2706,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
         "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
         "partido": "PAN",
         "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pan-128x128.jpg",
+        "estado": "Ciudad de México",
         "coalicion": "Por México al Frente"
         
-      }],
-      "TodosporMexico": [
+      },
         {
           "nombre": "pedro ukjnisw jfnllw",
           "foto": "https://coo5.tuvotacion.com/imagenes_unicas/cual-perrito-es-mas-tierno-450089.jpg",
@@ -2601,6 +2718,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
           "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
           "partido": "PRI",
           "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pri-128x128.jpg",
+          "estado": "Ciudad de México",
           "coalicion": "Todos por México"
           
 
@@ -2613,11 +2731,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
           "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
           "partido": "PRI",
           "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pri-128x128.jpg",
+          "estado": "Ciudad de México",
           "coalicion": "Por México al Frente"
           
-        }],
-
-        "JuntosHaremos": [
+        },
           {
             "nombre": "pepe kjehfneqoqilk",
             "foto": "https://coo5.tuvotacion.com/imagenes_unicas/cual-perrito-es-mas-tierno-450089.jpg",
@@ -2626,6 +2743,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
             "partido": "PRD",
             "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pri-128x128.jpg",
+            "estado": "Ciudad de México",
             "coalicion": "Juntos Haremos Historia"
             
 
@@ -2638,6 +2756,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
             "partido": "PRD",
             "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pri-128x128.jpg",
+            "estado": "Ciudad de México",
             "coalicion": "Por México al Frente"
           }]
 
@@ -2656,7 +2775,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
         "properties":{
           "id": 6,
          "estado": "Colima",
-         "PorMexico": [
+         "candidatos": [
           {
             "nombre": "luisa dhkosfdb",
             "foto": "https://coo5.tuvotacion.com/imagenes_unicas/cual-perrito-es-mas-tierno-450089.jpg",
@@ -2665,6 +2784,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
             "partido": "PAN",
             "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pan-128x128.jpg",
+            "estado": "Colima",
             "coalicion": "Por México al Frente"
             
           },
@@ -2676,10 +2796,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
             "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
             "partido": "PAN",
             "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pan-128x128.jpg",
+            "estado": "Colima",
             "coalicion": "Por México al Frente"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "pedro ukjnisw jfnllw",
               "foto": "https://coo5.tuvotacion.com/imagenes_unicas/cual-perrito-es-mas-tierno-450089.jpg",
@@ -2688,6 +2808,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
               "partido": "PRI",
               "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pri-128x128.jpg",
+              "estado": "Colima",
               "coalicion": "Todos por México"
               
     
@@ -2700,11 +2821,10 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
               "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
               "partido": "PRI",
               "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pri-128x128.jpg",
+              "estado": "Colima",
               "coalicion": "Por México al Frente"
               
-            }],
-    
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "pepe kjehfneqoqilk",
                 "foto": "https://coo5.tuvotacion.com/imagenes_unicas/cual-perrito-es-mas-tierno-450089.jpg",
@@ -2713,6 +2833,7 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
                 "partido": "PRD",
                 "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pri-128x128.jpg",
+                "estado": "Colima",
                 "coalicion": "Juntos Haremos Historia"
                 
     
@@ -2725,11 +2846,12 @@ var logoPES = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PES_log
                 "comentarios": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proi",
                 "partido": "PRD",
                 "logo":"http://transparencia.congresomich.gob.mx/media/partidos/logos/logo-pri-128x128.jpg",
+                "estado": "Colima",
                 "coalicion": "Por México al Frente"
               }]
     
 }}
         
- //no borrar estos nunca     
+ //no borrar estos nunca  :D   
     ]
 }
