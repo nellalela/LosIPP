@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+ h1 {
+     color: black;
+     font-size: 30px !important;
+     font-weight: 700 !important;
+ }
+
+ h3 {
+
+color : #8a8a8a !important;
+font-size: 18px !important;
+font-weight: 600 !important;
+ }
+
+ hr {
+    display: block !important;
+    height: 3px !important;
+    border: 0 !important;
+    border-top: 2px solid #00B2C0 !important;
+    margin: 1em 0 !important;
+    padding: 0 !important; 
+
+
+}
