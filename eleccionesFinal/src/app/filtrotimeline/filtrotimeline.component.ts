@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { datos } from './datosmil';
 
 declare var jquery:any;
@@ -8,7 +8,8 @@ declare var $ :any;
 @Component({
   selector: 'app-filtrotimeline',
   templateUrl: './filtrotimeline.component.html',
-  styleUrls: ['./filtrotimeline.component.css']
+  styleUrls: ['./filtrotimeline.component.css'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class FiltrotimelineComponent implements OnInit {
 
@@ -19,13 +20,14 @@ export class FiltrotimelineComponent implements OnInit {
 
   ngOnInit() {
 
-  console.log(datos);
+  
 
-  var html = "<div class='scroll' style='overflow-y: scroll; height:600px;'><table id='theTable'>";
+  var html = "<div id='scroll' ><table id='theTable'>";
   "<tbody>"
 for (var i= 0; i< datos.length; i++){
   html += "<tr class='props'>";
   html+="<td class='candidato'>"+ datos[i].Candidato+"</td>";
+  html+="<td class='categoria'>"+ datos[i].Group+"</td>";
   html+="<td class='tema tema-space'>"+ datos[i].Tema+"</td>"
   html+="<td class='headline'><b>"+  datos[i].Headline+"</b></td>";
   html+="<td  class='text'>"+datos[i].Text+"</td>";
@@ -45,13 +47,16 @@ $("#reset").click(function(){
   $( "input:checkbox:checked" ).prop( "checked", false );
 });
 
-$(".candidato,.tema").on("change", function () {
+$(".candidato,.tema, .categoria").on("change", function () {
   var cand = $(".candidato:checked").map(function () {
       return $(this).val()
   }).get();
   var tem = $(".tema:checked").map(function () {
       return $(this).val()
   }).get();
+  var cat = $(".categoria:checked").map(function () {
+    return $(this).val()
+}).get();
   
   var all = $("tbody tr").hide();
   var temas = $(".tema").filter(function () {
@@ -67,12 +72,20 @@ $(".candidato,.tema").on("change", function () {
       return index >= 0
   }).parent()
   if (!candidatos.length) candidatos = all
+
+  var categorias = $(".categoria").filter(function () {
+    var categoria = $(this).text(),
+        index = $.inArray(categoria, cat);
+        
+    return index >= 0
+}).parent()
+if (!categorias.length) categorias = all
   
-  temas.filter(candidatos).show()
+  temas.filter(candidatos).filter(categorias).show()
   
-  console.log(temas,candidatos)
+ 
 
 
 });
 
-  }
+  }}
