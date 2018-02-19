@@ -219,21 +219,25 @@
         <input name="tema" class="tema" id="chc9" type="checkbox" value="Administración Pública"/>
         Administración Pública
     </label>
-
+<br>
     <label for="chc5"> 
       <input name="tema" class="tema" id="chc5" type="checkbox" value="Corrupción" />
       Corrupción
   </label>
 
+  <br>
+
     <label for="chc9"> 
       <input name="tema" class="tema" id="chc9" type="checkbox" value="Desarrollo Económico"/>
       Desarrollo Económico
   </label>
+  <br>
 
   <label for="chc7"> 
     <input name="tema" class="tema" id="chc7" type="checkbox" value="Desarrollo Social"/>
     Desarrollo Social
 </label>
+<br>
       <label for="chc6"> 
           <input name="tema" class="tema" id="chc6" type="checkbox" value="Educación"/>
           Educación
@@ -244,17 +248,17 @@
         <input name="tema" class="tema" id="chc8" type="checkbox" value="Género"/>
         Género
     </label>
-
+<br>
     <label for="chc8">
       <input name="tema" class="tema" id="chc8" type="checkbox" value="Medio Ambiente"/>
       Medio Ambiente
   </label>
-
+<br>
   <label for="chc8">
     <input name="tema" class="tema" id="chc8" type="checkbox" value="Política Exterior"/>
     Política Exterior
 </label>
-
+<br>
 <label for="chc8">
   <input name="tema" class="tema" id="chc8" type="checkbox" value="Salud"/>
   Salud
@@ -354,6 +358,7 @@ var options = {
       "<tbody>"
     for (var i= 0; i< totalPropuestas.length; i++){
       html += "<tr class='props'>";
+        html+="<td class='candidato'>"+totalPropuestas[i].Candidato+"</td>";
         html+="<td class='candidato'>"+totalPropuestas[i].Candidato+"</td>";
         html+="<td class='tema tema-space'>"+totalPropuestas[i].Tema+"</td>"
        html+="<td class='headline'><b>"+totalPropuestas[i].Headline+"</b></td>";
