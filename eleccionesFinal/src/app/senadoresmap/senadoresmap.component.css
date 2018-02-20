@@ -1,6 +1,10 @@
 
 #mapid {
+<<<<<<< HEAD
 	min-height: 700px;
+=======
+	min-height: 600px;
+>>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
     width: 90%;
     
 }
@@ -31,9 +35,13 @@ div.leaflet-popup-content > a {
 
 .legis {
 
+<<<<<<< HEAD
     padding-top: 140px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
+=======
+    padding: 40px;
+>>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
     
 }

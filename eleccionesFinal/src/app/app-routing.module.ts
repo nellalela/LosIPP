@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+<<<<<<< HEAD
 import { SenadoresmapComponent } from './senadoresmap/senadoresmap.component';
 import { HomeComponent } from './home/home.component';
 
@@ -21,6 +22,10 @@ const routes: Routes = [
 
 
 ];
+=======
+
+const routes: Routes = [];
+>>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
