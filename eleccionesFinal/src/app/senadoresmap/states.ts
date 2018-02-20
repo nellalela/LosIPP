@@ -956,7 +956,9 @@ export var states = {
             "partido": "PAN",
             "logo": logoPAN ,
             "coalicion": "Por México al Frente",
-            "estado": "San Luis Potosí"
+            "estado": "San Luis Potosí",
+            
+          
             
           }],
           "TodosporMexico": [
@@ -1207,79 +1209,79 @@ export var states = {
   "estado": "Tamaulipas",
   "PorMexico": [
     {
-      "nombre": " ",
-      "foto": " ",
+      "nombre": "Ismael García Cabeza de Vaca",
+      "foto": "http://laprensa.mx/upload/foto/40/3/8/Ismael%20Garc%C3%ADa%20Cabeza%20de%20Vaca.jpg",
       "tendencia": "PAN-PRD-MC: 27%",
-      "trayectoria": " ",
-      "comentarios": " ",
-      "partido": " ",
-      "logo": pendiente ,
-      "coalicion": " ",
+      "trayectoria": "Lic. en Comercio Exterior. Candidato a diputado federal en 2015. Secretario General del PAN en el estado. ",
+      "comentarios": "Hermano del gobernador actual, Francisco Javier García Cabeza de Vaca.",
+      "partido": "PAN",
+      "logo": logoPAN ,
+      "coalicion": "Por México al Frente",
       "estado": "Tamaulipas"
      
     },
     {
-      "nombre": " ",
-      "foto": " ",
+      "nombre": "María Elena Figueroa Smith",
+      "foto": "https://www.gaceta.mx/wp-content/uploads/2017/11/FIGUEROA-SMITH.jpg",
       "tendencia": "PAN-PRD-MC: 27%",
-      "trayectoria": " ",
+      "trayectoria": "Mtra. en Educación. Fundadora del Consejo de la Asociación Voluntad contra el Cáncer Tampico-Madero. Candidata a diputada local en 2010. Candidata a diputada federal en 2015. Directora del Instituto de la Mujer Tamaulipeca.",
       "comentarios": "",
-      "partido": " ",
-      "logo": pendiente ,
-      "coalicion": " ",
+      "partido": "PAN",
+      "logo": logoPAN ,
+      "coalicion": "Por México al Frente",
       "estado": "Tamaulipas"
       
     }],
     "TodosporMexico": [
       {
-        "nombre": " ",
-        "foto": " ",
+        "nombre": "Yahleel Abdalá Carmona",
+        "foto": "http://sitl.diputados.gob.mx/LXIII_leg/fotos_lxiiiconfondo/043_FOTO_CHICA.jpg",
         "tendencia": "PRI-PVEM-NA: 14%",
-        "trayectoria": " ",
-        "comentarios": "",
-        "partido": " ",
-        "logo": pendiente,
-        "coalicion": " ",
+        "trayectoria": "Candidata a diputada local por el PT en 2012.",
+        "comentarios": "En medios electrónicos se ha dado resaltado su pobre labor legislativa; en 2 años ha ingresado 20 iniciativas (menos de un punto de acuerdo por mes).",
+        "partido": "PRI",
+        "logo": logoPRI,
+        "coalicion": "PRI",
         "estado": "Tamaulipas"
         
 
       },
       {
-        "nombre": " ",
-        "foto": " ",
+        "nombre": "Luis Alejandro Guevara Cobos",
+        "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218969.jpg",
         "tendencia": "PRI-PVEM-NA: 14%",
-        "trayectoria": " ",
-        "comentarios": "",
-        "partido": " ",
-        "logo": pendiente,
-        "coalicion": " ",
+        "trayectoria": "Lic. en Contaduría Pública. Diputado federal de 1997 a 2000. Posteriormente, fue diputado federal suplente en las LIX, LX y LXI Legislaturas. Actual diputado federal con licencia.",
+        "comentarios": "Amigo personal de Peña Nieto, con quien ha aparecido en eventos públicos y de quien fue coordinador de giras presidenciales.",
+        "partido": "PRI",
+        "logo": logoPRI,
+        "coalicion": "PRI",
         "estado": "Tamaulipas"
         
       }],
 
       "JuntosHaremos": [
         {
-          "nombre": "Ismael García Cabeza de Vaca",
-          "foto": " ",
+          "nombre": "José Ramón 'JR' Gómez Leal*",
+          "foto": "http://i2.wp.com/www.reynosanews.com/wp-content/uploads/2016/05/jr2.jpg?fit=600%2C403",
           "tendencia": "MORENA-PT-PES: 26%",
-          "trayectoria": " ",
-          "comentarios": "",
-          "partido": " ",
-          "logo": pendiente,
-          "coalicion": " ",
+          "trayectoria": "Diputado local por el PAN de 2010 a 2013. Fue candidato a la Alcaldía de Reynosa en dos ocasiones: 2013 por el PAN y 2016 como independiente. En 2015 abandonó el PAN y se incorporó a MORENA a mediados de 2017.",
+          "comentarios": "Al ser candidato por la Alcaldía de Reynosa por el PAN en 2013, el TRIFE lo destituyó por actos de corrupción en la asamblea de delegados donde se le escogió como candidato. A raíz de esto, dio su apoyo al candidato del PRI y posteriormente dejó el partido. *Aún no se ha registrado como precandidato y el PES a nivel nacional ha buscado que no sea él el candidato al Senado.",
+          "partido": "MORENA",
+          "logo": logoMORENA,
+          "coalicion": "Juntos Haremos Historia",
           "estado": "Tamaulipas"
           
 
         },
         {
-          "nombre": " ",
-          "foto": " ",
+          "nombre": "Olga Sosa Ruiz*",
+          "foto": "http://www.enlacedelgolfo.mx/wp-content/uploads/2013/06/OLGA-SOSA.jpg",
           "tendencia": "MORENA-PT-PES: 26%",
-          "trayectoria": " ",
-          "comentarios": "",
-          "partido": " ",
-          "logo": pendiente,
-          "coalicion": " ",
+          "trayectoria": "Diputada local de 2013 a 2016 por el PRI. A inicios de 2018 renuncia al PRI y se une al PES.",
+          "comentarios": "*Aún no se ha registrado; sin embargo, es la única mujer del PES que suena para la Senaduría y se especula que fue invitada al partido para esa posición.",
+          "partido": "PES",
+          "logo": logoPES,
+          "coalicion": "Juntos Haremos Historia",
           "estado": "Tamaulipas"
           
         }]
@@ -1298,52 +1300,52 @@ export var states = {
          "estado": "Yucatán",
          "PorMexico": [
           {
-            "nombre": " ",
-            "foto": " ",
-            "tendencia": " ",
-            "trayectoria": " ",
-            "comentarios": " ",
-            "partido": " ",
-            "logo": pendiente ,
-            "coalicion": " ",
+            "nombre": "Joaquín Jesús Díaz Mena*",
+            "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218518.jpg",
+            "tendencia": "PAN-PRD-MC: 25%",
+            "trayectoria": "Mtro. en Economía Urbana y Regional. Diputado local de 2004 a 2006 y diputado federal de 2006 a 2009. Delegado de la SEP de 2009 a 2011. Candidato a Gobernador en 2012. Diputado federal plurinominal con licencia. ",
+            "comentarios": "*Aún no es el candidato definido, pues el otro precandidato es Raúl Paz Alonzo, Dirigente Estatal del partido. ",
+            "partido": "PAN",
+            "logo": logoPAN ,
+            "coalicion": "Por México al Frente",
             "estado": "Yucatán"
            
           },
           {
-            "nombre": " ",
-            "foto": " ",
-            "tendencia": " ",
-            "trayectoria": " ",
-            "comentarios": "",
-            "partido": " ",
-            "logo": pendiente ,
-            "coalicion": " ",
+            "nombre": "Ana Rosa Payán Cervera",
+            "foto": "http://www.theyucatantimes.com/wp-content/uploads/2015/05/ana-rosa-2.jpg",
+            "tendencia": "PAN-PRD-MC: 25%",
+            "trayectoria": "Lic. en Contaduría Pública. Diputada federal (1988-1991) y Senadora (1997-2000) por el PAN. Alcalde de Mérida en dos ocasiones (1991-1993 y 2001-2004). Precandidata a la Gubernatura en 2007 por el PAN, pero renuncia al partido durante el proceso y es candidata a la Gubernatura por PT-Convergencia. Candidata por tercera ocasión a la Alcaldía de Mérida en 2015 con MC.",
+            "comentarios": "Su salida del PAN se dio a raíz de que impugnó el resultado que definió a Xavier Abreu como el candidato a la gubernatura en 2007. El CEN del PAN rechazó la impugnación.",
+            "partido": "MC",
+            "logo": logoMC ,
+            "coalicion": "Por México al Frente",
             "estado": "Yucatán"
             
           }],
           "TodosporMexico": [
             {
-              "nombre": " ",
-              "foto": " ",
-              "tendencia": " ",
-              "trayectoria": " ",
-              "comentarios": "",
-              "partido": " ",
-              "logo": pendiente,
-              "coalicion": " ",
+              "nombre": "Jorge Carlos Ramírez Marín",
+              "foto": "https://lideresmexicanos.com/wp-content/uploads/2016/06/Ramirez-Marin-Jorge-Carlos-1.jpg",
+              "tendencia": "PRI-PVEM-NA: 20%",
+              "trayectoria": "Lic. en Derecho. Diputado local en dos ocasiones (1993-1995 y 2004-2007). Diputado federal de 2000 a 2003 y de 2009 a 2012. Secretario de la Reforma Agraria (2012-2013). Secretario de la SEDATU (2013-2015). Actual diputado federal con licencia. Fue Presidente de la Cámara de Diputados en los períodos 2010-2011 y 2017-2018.",
+              "comentarios": "Acusado de corrupción en su paso por la SEDATU; supuestame habría sido investigado por Hacienda desde 2014, por lo que la diputación de 2015 le aseguró el fuero. Acusado de enriquecimiento ilícito y aumento en declaraciones patrimoniales a raíz de su gestión como vicecoordinador de campaña de Peña Nieto en 2012.",
+              "partido": "PRI",
+              "logo": logoPRI,
+              "coalicion": "Todos por México",
               "estado": "Yucatán"
               
   
             },
             {
-              "nombre": " ",
-              "foto": " ",
-              "tendencia": " ",
-              "trayectoria": " ",
-              "comentarios": "",
-              "partido": " ",
-              "logo": pendiente,
-              "coalicion": " ",
+              "nombre": "Celia Rivas Rodríguez*",
+              "foto": "http://www.congresoyucatan.gob.mx/recursos/diputado/diputado_84.jpg",
+              "tendencia": "PRI-PVEM-NA: 20%",
+              "trayectoria": "Mtra. en Derecho Procesal. Fue la primer mujer titular de la Fiscalía del Estado Diputada local desde 2015.",
+              "comentarios": "*Es la mujer que se perfila para acompañar a Ramírez Marín al Senado. Sin embargo, no pertenece al PVEM, quien tiene que designar la segunda fórmula, aunque supuestamente este partido le haya dado el visto bueno.",
+              "partido": "PVEM",
+              "logo": logoPVEM,
+              "coalicion": "Todos por México",
               "estado": "Yucatán"
               
             }],
@@ -1352,11 +1354,11 @@ export var states = {
               {
                 "nombre": " ",
                 "foto": " ",
-                "tendencia": " ",
+                "tendencia": "MORENA-PT-PES: 21%",
                 "trayectoria": " ",
                 "comentarios": "",
-                "partido": " ",
-                "logo": pendiente,
+                "partido": "MORENA",
+                "logo": logoMORENA,
                 "coalicion": " ",
                 "estado": "Yucatán"
                 
@@ -1365,11 +1367,11 @@ export var states = {
               {
                 "nombre": " ",
                 "foto": " ",
-                "tendencia": " ",
+                "tendencia": "MORENA-PT-PES: 21%",
                 "trayectoria": " ",
                 "comentarios": "",
-                "partido": " ",
-                "logo": pendiente,
+                "partido": "MORENA",
+                "logo": logoMORENA,
                 "coalicion": " ",
                 "estado": "Yucatán"
                 
@@ -1396,7 +1398,7 @@ export var states = {
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Guerrero"
            
           },
@@ -1408,7 +1410,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Guerrero"
             
           }],
@@ -1421,7 +1423,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "Todos por México",
               "estado": "Guerrero"
               
   
@@ -1434,7 +1436,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "Todos por México",
               "estado": "Guerrero"
               
             }],
@@ -1448,9 +1450,9 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Guerrero"
-                
+            
     
               },
               {
@@ -1461,7 +1463,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Guerrero"
                 
               }]
@@ -1486,7 +1488,7 @@ export var states = {
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Michoacán"
            
           },
@@ -1498,7 +1500,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Michoacán"
             
           }],
@@ -1511,7 +1513,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Michoacán"
               
   
@@ -1524,7 +1526,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Michoacán"
               
             }],
@@ -1538,7 +1540,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Michoacán"
                 
     
@@ -1551,7 +1553,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Michoacán"
                 
               }]
@@ -1577,7 +1579,7 @@ export var states = {
       "comentarios": " ",
       "partido": " ",
       "logo": pendiente ,
-      "coalicion": " ",
+      "coalicion": "Por México al Frente",
       "estado": "Oaxaca"
      
     },
@@ -1589,7 +1591,7 @@ export var states = {
       "comentarios": "",
       "partido": " ",
       "logo": pendiente ,
-      "coalicion": " ",
+      "coalicion": "Por México al Frente",
       "estado": "Oaxaca"
       
     }],
@@ -1602,7 +1604,7 @@ export var states = {
         "comentarios": "",
         "partido": " ",
         "logo": pendiente,
-        "coalicion": " ",
+        "coalicion": "Todos por México",
         "estado": "Oaxaca"
         
 
@@ -1615,7 +1617,7 @@ export var states = {
         "comentarios": "",
         "partido": " ",
         "logo": pendiente,
-        "coalicion": " ",
+        "coalicion": "Todos por México",
         "estado": "Oaxaca"
         
       }],
@@ -1629,7 +1631,7 @@ export var states = {
           "comentarios": "",
           "partido": " ",
           "logo": pendiente,
-          "coalicion": " ",
+          "coalicion": "Juntos Haremos Historia",
           "estado": "Oaxaca"
           
 
@@ -1642,7 +1644,7 @@ export var states = {
           "comentarios": "",
           "partido": " ",
           "logo": pendiente,
-          "coalicion": " ",
+          "coalicion": "Juntos Haremos Historia",
           "estado": "Oaxaca"
           
         }]
@@ -1668,7 +1670,7 @@ export var states = {
           "comentarios": " ",
           "partido": " ",
           "logo": pendiente ,
-          "coalicion": " ",
+          "coalicion": "Por México al Frente",
           "estado": "Quintana Roo"
          
         },
@@ -1680,7 +1682,7 @@ export var states = {
           "comentarios": "",
           "partido": " ",
           "logo": pendiente ,
-          "coalicion": " ",
+          "coalicion": "Por México al Frente",
           "estado": "Quintana Roo"
           
         }],
@@ -1693,7 +1695,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente,
-            "coalicion": " ",
+            "coalicion": "Todos por México",
             "estado": "Quintana Roo"
             
 
@@ -1706,7 +1708,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente,
-            "coalicion": " ",
+            "coalicion": "Todos por México",
             "estado": "Quintana Roo"
             
           }],
@@ -1720,7 +1722,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "Juntos Haremos Historia",
               "estado": "Quintana Roo"
               
   
@@ -1733,7 +1735,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "Juntos Haremos Historia",
               "estado": "Quintana Roo"
               
             }]
@@ -1758,7 +1760,7 @@ export var states = {
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Tlaxcala"
            
           },
@@ -1770,7 +1772,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Tlaxcala"
             
           }],
@@ -1783,7 +1785,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "Todos por México",
               "estado": "Tlaxcala"
               
   
@@ -1796,7 +1798,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "Todos por México",
               "estado": "Tlaxcala"
               
             }],
@@ -1810,7 +1812,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Tlaxcala"
                 
     
@@ -1823,7 +1825,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Tlaxcala"
                 
               }]
@@ -1848,7 +1850,7 @@ export var states = {
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "PAN",
             "estado": "Nuevo León"
            
           },
@@ -1860,7 +1862,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "PAN",
             "estado": "Nuevo León"
             
           }],
@@ -1873,7 +1875,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Nuevo León"
               
   
@@ -1886,7 +1888,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Nuevo León"
               
             }],
@@ -1900,7 +1902,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Nuevo León"
                 
     
@@ -1913,7 +1915,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Nuevo León"
                 
               }]
@@ -1937,7 +1939,7 @@ export var states = {
               "comentarios": " ",
               "partido": " ",
               "logo": pendiente ,
-              "coalicion": " ",
+              "coalicion": "PRD",
               "estado": "Morelos"
              
             },
@@ -1949,7 +1951,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente ,
-              "coalicion": " ",
+              "coalicion": "PRD",
               "estado": "Morelos"
               
             }],
@@ -1962,7 +1964,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Todos por México",
                 "estado": "Morelos"
                 
     
@@ -1975,7 +1977,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Todos por México",
                 "estado": "Morelos"
                 
               }],
@@ -1989,7 +1991,7 @@ export var states = {
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
-                  "coalicion": " ",
+                  "coalicion": "Juntos Haremos Historia",
                   "estado": "Morelos"
                   
       
@@ -2002,7 +2004,7 @@ export var states = {
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
-                  "coalicion": " ",
+                  "coalicion": "Juntos Haremos Historia",
                   "estado": "Morelos"
                   
                 }]
@@ -2027,7 +2029,7 @@ export var states = {
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Tabasco"
            
           },
@@ -2039,7 +2041,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Tabasco"
             
           }],
@@ -2052,7 +2054,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Tabasco"
               
   
@@ -2065,7 +2067,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Tabasco"
               
             }],
@@ -2079,7 +2081,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Tabasco"
                 
     
@@ -2092,7 +2094,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Tabasco"
                 
               }]
@@ -2118,7 +2120,7 @@ export var states = {
               "comentarios": " ",
               "partido": " ",
               "logo": pendiente ,
-              "coalicion": " ",
+              "coalicion": "Por México al Frente",
               "estado": "Estado de México"
              
             },
@@ -2130,7 +2132,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente ,
-              "coalicion": " ",
+              "coalicion": "Por México al Frente",
               "estado": "Estado de México"
               
             }],
@@ -2143,7 +2145,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Todos por México",
                 "estado": "Estado de México"
                 
     
@@ -2156,7 +2158,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Todos por México",
                 "estado": "Estado de México"
                 
               }],
@@ -2170,7 +2172,7 @@ export var states = {
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
-                  "coalicion": " ",
+                  "coalicion": "Juntos Haremos Historia",
                   "estado": "Estado de México"
                   
       
@@ -2183,7 +2185,7 @@ export var states = {
                   "comentarios": "",
                   "partido": " ",
                   "logo": pendiente,
-                  "coalicion": " ",
+                  "coalicion": "Juntos Haremos Historia",
                   "estado": "Estado de México"
                   
                 }]
@@ -2209,7 +2211,7 @@ export var states = {
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Zacatecas"
            
           },
@@ -2221,7 +2223,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Zacatecas"
             
           }],
@@ -2234,7 +2236,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "Todos por México",
               "estado": "Zacatecas"
               
   
@@ -2247,7 +2249,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "Todos por México",
               "estado": "Zacatecas"
               
             }],
@@ -2261,7 +2263,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Zacatecas"
                 
     
@@ -2274,7 +2276,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Zacatecas"
                 
               }]
@@ -2298,7 +2300,7 @@ export var states = {
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Jalisco"
            
           },
@@ -2310,7 +2312,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Jalisco"
             
           }],
@@ -2323,7 +2325,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Jalisco"
               
   
@@ -2336,7 +2338,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Jalisco"
               
             }],
@@ -2350,7 +2352,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Jalisco"
                 
     
@@ -2363,7 +2365,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Jalisco"
                 
               }]
@@ -2392,7 +2394,7 @@ export var states = {
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Puebla"
            
           },
@@ -2404,7 +2406,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Puebla"
             
           }],
@@ -2417,7 +2419,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Puebla"
               
   
@@ -2430,7 +2432,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Puebla"
               
             }],
@@ -2444,7 +2446,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Puebla"
                 
     
@@ -2457,7 +2459,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Puebla"
                 
               }]
@@ -2482,7 +2484,7 @@ export var states = {
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Hidalgo"
            
           },
@@ -2494,7 +2496,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Hidalgo"
             
           }],
@@ -2507,7 +2509,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "Todos por México",
               "estado": "Hidalgo"
               
   
@@ -2520,7 +2522,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "Todos por México",
               "estado": "Hidalgo"
               
             }],
@@ -2534,7 +2536,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Hidalgo"
                 
     
@@ -2547,7 +2549,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Hidalgo"
                 
               }]
@@ -2573,7 +2575,7 @@ export var states = {
             "comentarios": " ",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Veracruz"
            
           },
@@ -2585,7 +2587,7 @@ export var states = {
             "comentarios": "",
             "partido": " ",
             "logo": pendiente ,
-            "coalicion": " ",
+            "coalicion": "Por México al Frente",
             "estado": "Veracruz"
             
           }],
@@ -2598,7 +2600,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Veracruz"
               
   
@@ -2611,7 +2613,7 @@ export var states = {
               "comentarios": "",
               "partido": " ",
               "logo": pendiente,
-              "coalicion": " ",
+              "coalicion": "PRI",
               "estado": "Veracruz"
               
             }],
@@ -2625,7 +2627,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Veracruz"
                 
     
@@ -2638,7 +2640,7 @@ export var states = {
                 "comentarios": "",
                 "partido": " ",
                 "logo": pendiente,
-                "coalicion": " ",
+                "coalicion": "Juntos Haremos Historia",
                 "estado": "Veracruz"
                 
               }]
@@ -2917,6 +2919,6 @@ export var states = {
     
 }}
         
- //no borrar estos nunca     
+ //no borrar estos nunca   actualización: me lleva la verga voy a tener que borrar un chingo de cosas  
     ]
 }

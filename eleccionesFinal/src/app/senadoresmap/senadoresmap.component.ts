@@ -32,7 +32,7 @@ export class SenadoresmapComponent implements OnInit {
           zoomDelta: 0.25,
           maxBoundsViscosity: 1.0,
           
-  }).setView([28.132442, -100.852647], 5);
+  }).setView([26.132442, -100.852647], 5);
   
 //tile layer supplier
 L.tileLayer('https://api.mapbox.com/styles/v1/nellalela/cjduomucm53gq2rqspd6i7vla/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibmVsbGFsZWxhIiwiYSI6ImNqY25wdGkydjFtYmozM3J3bmFtM3J4OTIifQ.8bjGPz0lsuXKQO41g3dhsA', {
@@ -134,11 +134,7 @@ return (props ? "<div class='target'>"+ "<div id='p1'>" + "<h4>"+ props.PorMexic
 + "<div id='p4'>" + "<h4>"+ props.TodosporMexico[1].nombre + "</h4>"  + props.estado + "<br><br>"+"<img class='fotos' src='" + props.TodosporMexico[1].foto +"'>" + "<br><br>" + "<h6>Partido</h6>" + "<img class= 'partidos' src='" + props.TodosporMexico[1].logo + "'>"+ " " +  props.TodosporMexico[1].partido + "<br><br>" +"<h6>Trayectoria</h6>" +props.TodosporMexico[1].trayectoria + "<br><br>" + "<h6>Comentarios</h6>" + props.TodosporMexico[1].comentarios +"</div>"
 + "<div id='p5'>" + "<h4>"+ props.JuntosHaremos[0].nombre + "</h4>"  + props.estado + "<br><br>"+"<img class='fotos' src='" + props.JuntosHaremos[0].foto +"'>" + "<br><br>" + "<h6>Partido</h6>" + "<img class= 'partidos' src='" + props.JuntosHaremos[0].logo + "'>"+ " " +  props.JuntosHaremos[0].partido + "<br><br>" +"<h6>Trayectoria</h6>" +props.JuntosHaremos[0].trayectoria + "<br><br>" + "<h6>Comentarios</h6>" + props.JuntosHaremos[1].comentarios +"</div>"  
 + "<div id='p6'>" + "<h4>"+ props.JuntosHaremos[1].nombre + "</h4>"  + props.estado + "<br><br>"+"<img class='fotos' src='" + props.JuntosHaremos[1].foto +"'>" + "<br><br>" + "<h6>Partido</h6>" + "<img class= 'partidos' src='" + props.JuntosHaremos[1].logo + "'>"+ " " +  props.JuntosHaremos[1].partido + "<br><br>" +"<h6>Trayectoria</h6>" +props.JuntosHaremos[1].trayectoria + "<br><br>" + "<h6>Comentarios</h6>" + props.JuntosHaremos[1].comentarios +"</div>"
-<<<<<<< HEAD
-+"</div>"  : ' Da click en el estado');
-=======
 +"</div>"  :'seleccione')
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
 }
     
   }

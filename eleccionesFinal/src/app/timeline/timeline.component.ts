@@ -19,11 +19,7 @@ export class TimelineComponent implements OnInit {
   ngOnInit() {
 
     var options = {
-<<<<<<< HEAD
-      initial_zoom: 7,
-=======
       initial_zoom: 5,
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
       timenav_position: "top",
       marker_padding: 0,
       language: "es",
