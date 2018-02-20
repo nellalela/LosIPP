@@ -936,7 +936,6 @@ export var states = {
         "estado": "San Luis Potosí",
         "PorMexico": [
           {
-<<<<<<< HEAD
             "nombre": "Érika Irazema Briones Pérez",
             "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221530.jpg",
             "tendencia": "PAN-PRD-MC 27%",
@@ -945,21 +944,10 @@ export var states = {
             "partido": "PRD",
             "logo": logoPRD ,
             "coalicion": "Por México al Frente",
-=======
-            "nombre": " ",
-            "foto": " ",
-            "tendencia": " ",
-            "trayectoria": " ",
-            "comentarios": " ",
-            "partido": " ",
-            "logo": pendiente ,
-            "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
             "estado": "San Luis Potosí"
            
           },
           {
-<<<<<<< HEAD
             "nombre": "Juan Pablo Escobar Martínez*",
             "foto": "http://138.68.51.139/wp-content/uploads/files/noviembre-2013/escobar2905.jpg",
             "tendencia": "PAN-PRD-MC 27%",
@@ -968,22 +956,11 @@ export var states = {
             "partido": "PAN",
             "logo": logoPAN ,
             "coalicion": "Por México al Frente",
-=======
-            "nombre": " ",
-            "foto": " ",
-            "tendencia": " ",
-            "trayectoria": " ",
-            "comentarios": "",
-            "partido": " ",
-            "logo": pendiente ,
-            "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
             "estado": "San Luis Potosí"
             
           }],
           "TodosporMexico": [
             {
-<<<<<<< HEAD
               "nombre": "Luis Antonio Mahbub Sarquis",
               "foto": "https://pbs.twimg.com/profile_images/455446951014563840/uoJz05LK.jpeg",
               "tendencia": "PRI-PVEM-NA: 10%",
@@ -992,22 +969,11 @@ export var states = {
               "partido": "PRI",
               "logo": logoPRI,
               "coalicion": "Todos por México",
-=======
-              "nombre": " ",
-              "foto": " ",
-              "tendencia": " ",
-              "trayectoria": " ",
-              "comentarios": "",
-              "partido": " ",
-              "logo": pendiente,
-              "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
               "estado": "San Luis Potosí"
               
   
             },
             {
-<<<<<<< HEAD
               "nombre": "María Rebeca Terán Guevara",
               "foto": "http://laorquesta.mx/wp-content/uploads/2017/04/Mar%C3%ADa-Rebeca-Ter%C3%A1n-Guevara-240915.jpg",
               "tendencia": "PRI-PVEM-NA: 10%",
@@ -1016,23 +982,12 @@ export var states = {
               "partido": "PRI",
               "logo": logoPRI,
               "coalicion": "Todos por México",
-=======
-              "nombre": " ",
-              "foto": " ",
-              "tendencia": " ",
-              "trayectoria": " ",
-              "comentarios": "",
-              "partido": " ",
-              "logo": pendiente,
-              "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
               "estado": "San Luis Potosí"
               
             }],
 
             "JuntosHaremos": [
               {
-<<<<<<< HEAD
                 "nombre": "Primo Dothé Mata",
                 "foto": "https://www.ourcampaigns.com/images/candidates/b354/FullC354678D2015-01-01.jpg",
                 "tendencia": "MORENA-PT-PES: 33%",
@@ -1041,22 +996,11 @@ export var states = {
                 "partido": "MORENA",
                 "logo": logoMORENA,
                 "coalicion": "Juntos Haremos Historia",
-=======
-                "nombre": " ",
-                "foto": " ",
-                "tendencia": " ",
-                "trayectoria": " ",
-                "comentarios": "",
-                "partido": " ",
-                "logo": pendiente,
-                "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
                 "estado": "San Luis Potosí"
                 
     
               },
               {
-<<<<<<< HEAD
                 "nombre": "Josefina Banda Zermeño",
                 "foto": "https://i.imgur.com/KeasPpR.jpg",
                 "tendencia": "MORENA-PT-PES: 33%",
@@ -1065,16 +1009,6 @@ export var states = {
                 "partido": "MORENA",
                 "logo": logoMORENA,
                 "coalicion": "Juntos Haremos Historia",
-=======
-                "nombre": " ",
-                "foto": " ",
-                "tendencia": " ",
-                "trayectoria": " ",
-                "comentarios": "",
-                "partido": " ",
-                "logo": pendiente,
-                "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
                 "estado": "San Luis Potosí"
                 
               }]
@@ -1092,7 +1026,6 @@ export var states = {
          "estado": "Sonora",
          "PorMexico": [
           {
-<<<<<<< HEAD
             "nombre": "Luis Gerardo Serrato Castell*",
             "foto": "http://www.congresoson.gob.mx/Images/fotos_dip/dip_199.jpg",
             "tendencia": "PAN-PRD-MC: 20%",
@@ -1101,21 +1034,10 @@ export var states = {
             "partido": "PAN",
             "logo": logoPAN ,
             "coalicion": "Por México al Frente",
-=======
-            "nombre": " ",
-            "foto": " ",
-            "tendencia": " ",
-            "trayectoria": " ",
-            "comentarios": " ",
-            "partido": " ",
-            "logo": pendiente ,
-            "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
             "estado": "Sonora"
            
           },
           {
-<<<<<<< HEAD
             "nombre": "Sin definir*",
             "foto": " ",
             "tendencia": "PAN-PRD-MC: 20%",
@@ -1124,22 +1046,11 @@ export var states = {
             "partido": "MC",
             "logo": logoMC ,
             "coalicion": "Por México al Frente",
-=======
-            "nombre": " ",
-            "foto": " ",
-            "tendencia": " ",
-            "trayectoria": " ",
-            "comentarios": "",
-            "partido": " ",
-            "logo": pendiente ,
-            "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
             "estado": "Sonora"
             
           }],
           "TodosporMexico": [
             {
-<<<<<<< HEAD
               "nombre": "Sylvana Beltrones Sánchez",
               "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218275.jpg",
               "tendencia": "PRI-PVEM-NA: 21%",
@@ -1148,22 +1059,11 @@ export var states = {
               "partido": "PRI",
               "logo": logoPRI,
               "coalicion": "Todos por México",
-=======
-              "nombre": " ",
-              "foto": " ",
-              "tendencia": " ",
-              "trayectoria": " ",
-              "comentarios": "",
-              "partido": " ",
-              "logo": pendiente,
-              "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
               "estado": "Sonora"
               
   
             },
             {
-<<<<<<< HEAD
               "nombre": "Manuel Ignacio 'Maloro' Acosta Gutiérrez",
               "foto": "http://www.ehui.com/wp-content/uploads/2012/03/maloro-acosta-ppal00-e1331062958858.jpg",
               "tendencia": "PRI-PVEM-NA: 21%",
@@ -1172,23 +1072,12 @@ export var states = {
               "partido": "PRI",
               "logo": logoPRI,
               "coalicion": "Todos por México",
-=======
-              "nombre": " ",
-              "foto": " ",
-              "tendencia": " ",
-              "trayectoria": " ",
-              "comentarios": "",
-              "partido": " ",
-              "logo": pendiente,
-              "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
               "estado": "Sonora"
               
             }],
 
             "JuntosHaremos": [
               {
-<<<<<<< HEAD
                 "nombre": "Lilly Téllez",
                 "foto": "https://www.eldictamen.mx/wp-content/uploads/2018/01/20151002142607_97.jpg",
                 "tendencia": "MORENA-PT-PES: 29%",
@@ -1197,22 +1086,11 @@ export var states = {
                 "partido": "MORENA",
                 "logo": logoMORENA,
                 "coalicion": "Juntos Haremos Historia",
-=======
-                "nombre": " ",
-                "foto": " ",
-                "tendencia": " ",
-                "trayectoria": " ",
-                "comentarios": "",
-                "partido": " ",
-                "logo": pendiente,
-                "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
                 "estado": "Sonora"
                 
     
               },
               {
-<<<<<<< HEAD
                 "nombre": "Alfonso Durazo Montaño",
                 "foto": "http://www.dossierpolitico.com/img/image.jpeg",
                 "tendencia": "MORENA-PT-PES: 29%",
@@ -1221,16 +1099,6 @@ export var states = {
                 "partido": "MORENA",
                 "logo": logoMORENA,
                 "coalicion": "Juntos Haremos Historia",
-=======
-                "nombre": " ",
-                "foto": " ",
-                "tendencia": " ",
-                "trayectoria": " ",
-                "comentarios": "",
-                "partido": " ",
-                "logo": pendiente,
-                "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
                 "estado": "Sonora"
                 
               }]
@@ -1249,7 +1117,6 @@ export var states = {
           "estado": "Sinaloa",
           "PorMexico": [
             {
-<<<<<<< HEAD
               "nombre": "Héctor Melesio Cuén Ojeda*",
               "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/H%C3%A9ctor_Melesio_Cu%C3%A9n_Ojeda.jpg/220px-H%C3%A9ctor_Melesio_Cu%C3%A9n_Ojeda.jpg",
               "tendencia": "PAN-PRD-MC: 16%",
@@ -1258,21 +1125,10 @@ export var states = {
               "partido": "MC",
               "logo": logoMC ,
               "coalicion": "Por México al Frente",
-=======
-              "nombre": " ",
-              "foto": " ",
-              "tendencia": " ",
-              "trayectoria": " ",
-              "comentarios": " ",
-              "partido": " ",
-              "logo": pendiente ,
-              "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
               "estado": "Sinaloa"
              
             },
             {
-<<<<<<< HEAD
               "nombre": "Nadia Haydee Vega Olivas",
               "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218430.jpg",
               "tendencia": "PAN-PRD-MC: 16%",
@@ -1281,22 +1137,11 @@ export var states = {
               "partido": "PAN",
               "logo": logoPAN ,
               "coalicion": "Por México al Frente",
-=======
-              "nombre": " ",
-              "foto": " ",
-              "tendencia": " ",
-              "trayectoria": " ",
-              "comentarios": "",
-              "partido": " ",
-              "logo": pendiente ,
-              "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
               "estado": "Sinaloa"
               
             }],
             "TodosporMexico": [
               {
-<<<<<<< HEAD
                 "nombre": "Mario Zamora Gastélum",
                 "foto": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mario_Zamora_Gastelum.jpg",
                 "tendencia": "PRI-PVEM-NA: 19%",
@@ -1305,22 +1150,11 @@ export var states = {
                 "partido": "PRI",
                 "logo": logoPRI,
                 "coalicion": "Todos por México",
-=======
-                "nombre": " ",
-                "foto": " ",
-                "tendencia": " ",
-                "trayectoria": " ",
-                "comentarios": "",
-                "partido": " ",
-                "logo": pendiente,
-                "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
                 "estado": "Sinaloa"
                 
     
               },
               {
-<<<<<<< HEAD
                 "nombre": "Rosa Elena Millán Bueno",
                 "foto": "http://sitl.diputados.gob.mx/LXIII_leg/fotos_lxiiiconfondo/076_FOTO_CHICA.jpg",
                 "tendencia": "PRI-PVEM-NA: 19%",
@@ -1329,23 +1163,12 @@ export var states = {
                 "partido": "PRI",
                 "logo": logoPRI,
                 "coalicion": "Todos por México",
-=======
-                "nombre": " ",
-                "foto": " ",
-                "tendencia": " ",
-                "trayectoria": " ",
-                "comentarios": "",
-                "partido": " ",
-                "logo": pendiente,
-                "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
                 "estado": "Sinaloa"
                 
               }],
   
               "JuntosHaremos": [
                 {
-<<<<<<< HEAD
                   "nombre": "Rubén Rocha Moya",
                   "foto": "http://porlospasillos.com.mx/wp-content/uploads/2017/12/rocha.jpg",
                   "tendencia": "MORENA-PT-PES: 29%",
@@ -1354,22 +1177,11 @@ export var states = {
                   "partido": "MORENA",
                   "logo": logoMORENA,
                   "coalicion": "Juntos Haremos Historia",
-=======
-                  "nombre": " ",
-                  "foto": " ",
-                  "tendencia": " ",
-                  "trayectoria": " ",
-                  "comentarios": "",
-                  "partido": " ",
-                  "logo": pendiente,
-                  "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
                   "estado": "Sinaloa"
                   
       
                 },
                 {
-<<<<<<< HEAD
                   "nombre": "Imelda Castro Castro",
                   "foto": "http://www.noroeste.com.mx/files/Publicacion/1013207/Foto/note_picture/Captura-24522.jpg",
                   "tendencia": "MORENA-PT-PES: 29%",
@@ -1378,16 +1190,6 @@ export var states = {
                   "partido": "MORENA",
                   "logo": logoMORENA,
                   "coalicion": "Juntos Haremos Historia",
-=======
-                  "nombre": " ",
-                  "foto": " ",
-                  "tendencia": " ",
-                  "trayectoria": " ",
-                  "comentarios": "",
-                  "partido": " ",
-                  "logo": pendiente,
-                  "coalicion": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
                   "estado": "Sinaloa"
                   
                 }]
@@ -1407,11 +1209,7 @@ export var states = {
     {
       "nombre": " ",
       "foto": " ",
-<<<<<<< HEAD
       "tendencia": "PAN-PRD-MC: 27%",
-=======
-      "tendencia": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
       "trayectoria": " ",
       "comentarios": " ",
       "partido": " ",
@@ -1423,11 +1221,7 @@ export var states = {
     {
       "nombre": " ",
       "foto": " ",
-<<<<<<< HEAD
       "tendencia": "PAN-PRD-MC: 27%",
-=======
-      "tendencia": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
       "trayectoria": " ",
       "comentarios": "",
       "partido": " ",
@@ -1440,11 +1234,7 @@ export var states = {
       {
         "nombre": " ",
         "foto": " ",
-<<<<<<< HEAD
         "tendencia": "PRI-PVEM-NA: 14%",
-=======
-        "tendencia": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
         "trayectoria": " ",
         "comentarios": "",
         "partido": " ",
@@ -1457,11 +1247,7 @@ export var states = {
       {
         "nombre": " ",
         "foto": " ",
-<<<<<<< HEAD
         "tendencia": "PRI-PVEM-NA: 14%",
-=======
-        "tendencia": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
         "trayectoria": " ",
         "comentarios": "",
         "partido": " ",
@@ -1473,15 +1259,9 @@ export var states = {
 
       "JuntosHaremos": [
         {
-<<<<<<< HEAD
           "nombre": "Ismael García Cabeza de Vaca",
           "foto": " ",
           "tendencia": "MORENA-PT-PES: 26%",
-=======
-          "nombre": " ",
-          "foto": " ",
-          "tendencia": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
           "trayectoria": " ",
           "comentarios": "",
           "partido": " ",
@@ -1494,11 +1274,7 @@ export var states = {
         {
           "nombre": " ",
           "foto": " ",
-<<<<<<< HEAD
           "tendencia": "MORENA-PT-PES: 26%",
-=======
-          "tendencia": " ",
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
           "trayectoria": " ",
           "comentarios": "",
           "partido": " ",

@@ -30,21 +30,12 @@ export class SenadoresmapComponent implements OnInit {
           minZoom: 2.5,
           zoomSnap: 0,
           zoomDelta: 0.25,
-<<<<<<< HEAD
           maxBoundsViscosity: 1.0,
           
   }).setView([28.132442, -100.852647], 5);
   
 //tile layer supplier
 L.tileLayer('https://api.mapbox.com/styles/v1/nellalela/cjduomucm53gq2rqspd6i7vla/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibmVsbGFsZWxhIiwiYSI6ImNqY25wdGkydjFtYmozM3J3bmFtM3J4OTIifQ.8bjGPz0lsuXKQO41g3dhsA', {
-=======
-          maxBoundsViscosity: 0.9,
-          
-  }).setView([23.132442, -100.852647], 5);
-  
-//tile layer supplier
-L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibmVsbGFsZWxhIiwiYSI6ImNqY25wdGkydjFtYmozM3J3bmFtM3J4OTIifQ.8bjGPz0lsuXKQO41g3dhsA', {
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
   attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
   maxZoom: 18,
   id: 'mapbox.streets',
@@ -92,19 +83,11 @@ function onEachFeature(feature, layer){
 
 
 
-<<<<<<< HEAD
-      layer.bindPopup("<h4>" + feature.properties.estado + "</h4>" + "<h6>" + feature.properties.PorMexico[0].coalicion +"</h6>" + "<img src="+ feature.properties.PorMexico[0].logo +" class= 'logo'>"+ " "+"<a href='#p1'>" + feature.properties.PorMexico[0].nombre + "</a><br>" + "<img src="+ feature.properties.PorMexico[1].logo +" class= 'logo'>"+ " " + "<a href='#p2'>" + feature.properties.PorMexico[1].nombre
-=======
       layer.bindPopup("<h6><b>" + feature.properties.estado + "</b></h6>" + "<h6>" + feature.properties.PorMexico[0].coalicion +"</h6>" + "<img src="+ feature.properties.PorMexico[0].logo +" class= 'logo'>"+ " "+"<a href='#p1'>" + feature.properties.PorMexico[0].nombre + "</a><br>" + "<img src="+ feature.properties.PorMexico[1].logo +" class= 'logo'>"+ " " + "<a href='#p2'>" + feature.properties.PorMexico[1].nombre
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
      +"</a>" +"<br><br>" + "<h6>" + feature.properties.TodosporMexico[0].coalicion  + "</h6>"  + "<img src="+ feature.properties.TodosporMexico[0].logo +" class= 'logo'>"+ " "+"<a href='#p3'>" + feature.properties.TodosporMexico[0].nombre + "</a><br>" + "<img src="+ feature.properties.TodosporMexico[1].logo +" class= 'logo'>"+ " "+"<a href='#p4'>" + feature.properties.TodosporMexico[1].nombre
       + "</a><br><br>" + "<h6>" +  feature.properties.JuntosHaremos[0].coalicion + "</h6>"+ "<img src="+ feature.properties.JuntosHaremos[0].logo +" class= 'logo'>"+ " " +"<a href='#p5'>" + feature.properties.JuntosHaremos[0].nombre + "</a><br>"+ "<img src="+ feature.properties.JuntosHaremos[1].logo +" class= 'logo'>"+ " " +"<a href='#p6'>" + feature.properties.JuntosHaremos[1].nombre,{
         maxWidth : 500, 
         minWidth : 230,
-<<<<<<< HEAD
-        autoPan: false,
-=======
->>>>>>> 01bb528ffaa2de11a56ba139641e76ac748654f5
       });
       
 
