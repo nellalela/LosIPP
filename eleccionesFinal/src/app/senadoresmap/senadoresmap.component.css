@@ -1,0 +1,39 @@
+
+#mapid {
+	min-height: 700px;
+    width: 90%;
+    
+}
+
+div.leaflet-popup-content > a {
+ color : black;
+}
+
+.logo {
+    height: 24px;
+}
+
+.target > div {
+    display:none;
+}
+
+.target > div:target{
+    display:block;
+}
+
+.fotos{
+    height: 125px;
+}
+
+.partidos{
+    height: 30px;
+}
+
+.legis {
+
+    padding-top: 140px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    
+}

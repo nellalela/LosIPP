@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Seguimiento Congreso</Cap></title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+   integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+   crossorigin=""/>
+
+   
+   <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+ integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+ crossorigin=""></script>
+
+
+ <script src="states.js" type="text/javascript"></script>
+
+ <script src="statesforfilter.js" type="text/javascript"></script>
+ 
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-lg-8 col-sm-10">
+
+      <div id="mapid"></div>
+
+    </div>
+    <div class="col-lg-4 col-sm-2">
+
+      <div class="perfil"></div>
+       
+    </div>
+
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="container-fluid linea pad-der">
+
+            <h2>Filtra a los candidatos</h2>
+              <p>Selecciona tus opciones</p>
+          <div class= 'row'>
+              <div class="col-3">
+              <div id="checkboxes"> 
+                  <br>
+                  <h5>Estado</h5>
+                  <div class="col-11">
+                <label for="e1"><input type="checkbox" name="estado" id="e1" class="estado" value="Aguascalientes"/>Aguascalientes</label>
+                <label for="e2"><input type="checkbox" name="estado" id="e2" class="estado" value="Baja California" />Baja California</label>
+                <label for="e3"><input type="checkbox" name="estado" id="e3" class="estado" value="Baja California Sur" />Baja California Sur</label>
+                <label for="e4"><input type="checkbox" name="estado" id="e4" class="estado" value="Campeche" />Campeche</label>
+                <label for="e5"><input type="checkbox" name="estado" id="e5" class="estado" value="Chiapas" />Chiapas</label>
+                <label for="e6"><input type="checkbox" name="estado" id="e6" class="estado" value="Chihuahua"/>Chihuahua</label>
+                <label for="e7"><input type="checkbox" name="estado" id="e7" class="estado" value="Ciudad de México"/>Ciudad de México</label>
+                <label for="e8"><input type="checkbox" name="estado" id="e8" class="estado" value="Coahuila"/>Coahuila</label>
+                <label for="e9"><input type="checkbox" name="estado" id="e9" class="estado" value="Colima" />Colima</label>
+                <label for="e10"><input type="checkbox" name="estado" id="e10" class="estado" value="Durango" />Durango</label>
+                <label for="e11"><input type="checkbox" name="estado" id="e11" class="estado" value="Estado de México" />Estado de México</label>
+                <label for="e12"><input type="checkbox" name="estado" id="e12" class="estado" value="Guanajuato"/>Guanajuato</label>
+                <label for="e13"><input type="checkbox" name="estado" id="e13" class="estado" value="Guerrero"/>Guerrero</label>
+                <label for="e14"><input type="checkbox" name="estado" id="e14" class="estado" value="Hidalgo"/>Hidalgo</label>
+                <label for="e15"><input type="checkbox" name="estado" id="e15" class="estado" value="Jalisco"/>Jalisco</label>
+                <label for="e16"><input type="checkbox" name="estado" id="e16" class="estado" value="Michoacán"/>Michoacán</label>
+                <label for="e17"><input type="checkbox" name="estado" id="e17" class="estado" value="Morelos"/>Morelos</label>
+                <label for="e18"><input type="checkbox" name="estado" id="e18" class="estado" value="Nayarit"/>Nayarit</label>
+                <label for="e19"><input type="checkbox" name="estado" id="e19" class="estado" value="Nuevo León"/>Nuevo León</label>
+                <label for="e20"><input type="checkbox" name="estado" id="e20" class="estado" value="Oaxaca"/>Oaxaca</label>
+                <label for="e21"><input type="checkbox" name="estado" id="e21" class="estado" value="Puebla"/>Puebla</label>
+                <label for="e22"><input type="checkbox" name="estado" id="e22" class="estado" value="Querétaro"/>Querétaro</label>
+                <label for="e23"><input type="checkbox" name="estado" id="e23" class="estado" value="Quintana Roo"/>Quintana Roo</label>
+                <label for="e24"><input type="checkbox" name="estado" id="e24" class="estado" value="San Luis Potosí"/>San Luis Potosí</label>
+                <label for="e25"><input type="checkbox" name="estado" id="e25" class="estado" value="Sinaloa"/>Sinaloa</label>
+                <label for="e26"><input type="checkbox" name="estado" id="e26" class="estado" value="Tamaulipas"/>Tamaulipas</label>
+                <label for="e27"><input type="checkbox" name="estado" id="e27" class="estado" value="Tlaxcala"/>Tlaxcala</label>
+                <label for="e28"><input type="checkbox" name="estado" id="e28" class="estado" value="Sonora"/>Sonora</label>
+                <label for="e29"><input type="checkbox" name="estado" id="e29" class="estado" value="Tabasco"/>Tabasco</label>
+                <label for="e30"><input type="checkbox" name="estado" id="e30" class="estado" value="Veracruz"/>Veracruz</label>
+                <label for="e31"><input type="checkbox" name="estado" id="e31" class="estado" value="Yucatán"/>Yucatán</label>
+                <label for="e32"><input type="checkbox" name="estado" id="e32" class="estado" value="Zacatecas"/>Zacatecas</label>
+
+
+
+
+
+
+
+                  
+                      
+              </div>
+                
+                <br><br> <h5>Coalición</h5>
+          
+               <div class="col-10">
+                <label for="c1"><input type="checkbox" name="coalicion" class="coalicion" value="Por México al Frente"  id="c1">Por México al Frente</label>
+                <label for="c2"><input type="checkbox" name="coalicion" class="coalicion" value="Todos por México" id="c2">Todos por México</label>
+                <label for="c3"><input type="checkbox" name="coalicion" class="coalicion" value="Juntos Haremos Historia" id="c3">Juntos Haremos Historia</label>
+                
+                
+          
+               
+              </div>
+
+              <br><br> <h5>Partido</h5>
+
+              <div class="col-10">
+
+                 <label for=""><input type="checkbox" name="partido" class="partido" value="PAN" id="p">PAN</label>
+                 <label for=""><input type="checkbox" name="partido" class="partido" value="PRI" id="p">PRI</label>
+                 <label for=""><input type="checkbox" name="partido" class="partido" value="PRD" id="p">PRD</label>
+                 <label for=""><input type="checkbox" name="partido" class="partido" value="PT" id="p">PT</label>
+                 <label for=""><input type="checkbox" name="partido" class="partido" value="PVEM" id="p">PVEM</label>
+                 <label for=""><input type="checkbox" name="partido" class="partido" value="MORENA" id="p">MORENA</label>
+                 <label for=""><input type="checkbox" name="partido" class="partido" value="MC" id="p">Movimiento Ciudadano</label>
+                 <label for=""><input type="checkbox" name="partido" class="partido" value="PANAL" id="p">Nueva Alianza</label>
+                 <label for=""><input type="checkbox" name="partido" class="partido" value="PES" id="p">Encuentro Social</label>
+
+
+              </div>
+
+              <button id="reset">Reset</button>
+
+          </div>
+          
+          <div class="col-9">
+              <div id="senadores"></div>
+          
+          </div>
+              
+            </div>
+
+            
+
+    </div>
+
+  </div>
+
+  
+
+  <script>
+
+var geojson;  
+
+
+var mymap = L.map('mapid', { 
+    maxZoom: 5.5,
+        minZoom: 2.5,
+        zoomSnap: 0,
+        zoomDelta: 0.25,
+        maxBoundsViscosity: 0.9,
+        
+}).setView([23.132442, -100.852647], 5);
+
+
+
+
+
+
+//tile layer supplier
+ L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibmVsbGFsZWxhIiwiYSI6ImNqY25wdGkydjFtYmozM3J3bmFtM3J4OTIifQ.8bjGPz0lsuXKQO41g3dhsA', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+     
+      }).addTo(mymap);
+
+
+
+
+   
+
+      //add interaction
+
+      function highlight(e) {
+    var layer = e.target;
+    $('.perfil').html(info.update(layer.feature.properties));
+
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+    }
+}
+
+
+//mouseout
+   function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    
+   
+}
+
+
+//filtrar por coalicion o partido
+
+ 
+
+
+
+//funcion que agrega efecto a cada feauter
+function onEachFeature(feature, layer){
+        layer.on({
+          click: highlight,
+          mouseout: resetHighlight,
+        });
+
+
+        //variables con un array de objetos filtrado pr coalicion y partido
+      //   console.log(feature.properties.candidatos)
+
+      //  var pormex = feature.properties.candidatos.filter(function(el){
+      //     return el.coalicion == "Por México al Frente"
+      //  });
+      //    console.log(pormex);
+
+      //    var todospor = feature.properties.candidatos.filter(function(el){
+      //     return el.coalicion == "Todos por México"
+      //  });
+      //    console.log(todospor);
+
+      //    var juntos = feature.properties.candidatos.filter(function(el){
+      //     return el.coalicion == "Juntos Haremos Historia"
+      //  });
+      //    console.log(juntos);
+
+       
+
+      //    var PRI = feature.properties.candidatos.filter(function(el){
+      //     return el.coalicion == "PRI"
+      //  });
+      //    console.log(PRI);
+
+      //    var PAN = feature.properties.candidatos.filter(function(el){
+      //     return el.coalicion == "PAN"
+      //  });
+      //    console.log(PAN);
+
+      //    var PAN = feature.properties.candidatos.filter(function(el){
+      //     return el.coalicion == "PAN"
+      //  });
+      //    console.log(PAN);
+
+      //    var MORENA = feature.properties.candidatos.filter(function(el){
+      //     return el.coalicion == "MORENA"
+      //  });
+      //    console.log(MORENA);
+
+      //    var PRD = feature.properties.candidatos.filter(function(el){
+      //     return el.coalicion == "PRD"
+      //  });
+      //    console.log(PRD);
+
+
+
+
+
+        layer.bindPopup("<h6><b>" + feature.properties.estado + "</b></h6>" + "<h6>" + feature.properties.PorMexico[0].coalicion +"</h6>" + "<img src="+ feature.properties.PorMexico[0].logo +" class= 'logo'>"+ " "+"<a href='#p1'>" + feature.properties.PorMexico[0].nombre + "</a><br>" + "<img src="+ feature.properties.PorMexico[1].logo +" class= 'logo'>"+ " " + "<a href='#p2'>" + feature.properties.PorMexico[1].nombre
+       +"</a>" +"<br><br>" + "<h6>" + feature.properties.TodosporMexico[0].coalicion  + "</h6>"  + "<img src="+ feature.properties.TodosporMexico[0].logo +" class= 'logo'>"+ " "+"<a href='#p3'>" + feature.properties.TodosporMexico[0].nombre + "</a><br>" + "<img src="+ feature.properties.TodosporMexico[1].logo +" class= 'logo'>"+ " "+"<a href='#p4'>" + feature.properties.TodosporMexico[1].nombre
+        + "</a><br><br>" + "<h6>" +  feature.properties.JuntosHaremos[0].coalicion + "</h6>"+ "<img src="+ feature.properties.JuntosHaremos[0].logo +" class= 'logo'>"+ " " +"<a href='#p5'>" + feature.properties.JuntosHaremos[0].nombre + "</a><br>"+ "<img src="+ feature.properties.JuntosHaremos[1].logo +" class= 'logo'>"+ " " +"<a href='#p6'>" + feature.properties.JuntosHaremos[1].nombre,{
+          maxWidth : 500, 
+          minWidth : 230,
+        });
+        
+
+  
+
+      }
+
+     
+
+
+
+      geojson = L.geoJson(states, {
+    onEachFeature: onEachFeature
+}).addTo(mymap);
+
+
+
+var info = L.control();
+
+//crear div xq yolo
+
+info.onAdd = function (mymap) {
+    this._div = L.DomUtil.create('div', 'info'); 
+    this.update();
+    return this._div;
+};
+
+//metodo que sirve para actualizar el controlador basado en la info que le pasamos
+
+
+
+info.update =  function(props){
+
+
+  
+
+
+
+ 
+
+  return (props ? "<div class='target'>"+ "<div id='p1'>" + "<h4>"+ props.PorMexico[0].nombre + "</h4>"  + props.estado + "<br><br>"+"<img class='foto' src='" + props.PorMexico[0].foto +"'>" + "<br><br>" + "<h6>Partido</h6>" + "<img class= 'partidos' src='" + props.PorMexico[0].logo + "'>"+ " " +  props.PorMexico[0].partido + "<br><br>" +"<h6>Trayectoria</h6>" +props.PorMexico[0].trayectoria + "<br><br>" + "<h6>Comentarios</h6>" + props.PorMexico[0].comentarios +"</div>" 
+  + "<div id='p2'>" + "<h4>"+ props.PorMexico[1].nombre + "</h4>"  + props.estado + "<br><br>"+"<img class='foto' src='" + props.PorMexico[1].foto +"'>" + "<br><br>" + "<h6>Partido</h6>" + "<img class= 'partidos' src='" + props.PorMexico[1].logo + "'>"+ " " +  props.PorMexico[1].partido + "<br><br>" +"<h6>Trayectoria</h6>" +props.PorMexico[1].trayectoria + "<br><br>" + "<h6>Comentarios</h6>" + props.PorMexico[1].comentarios +"</div>"
+  + "<div id='p3'>" + "<h4>"+ props.TodosporMexico[0].nombre + "</h4>"  + props.estado + "<br><br>"+"<img class='foto' src='" + props.TodosporMexico[0].foto +"'>" + "<br><br>" + "<h6>Partido</h6>" + "<img class= 'partidos' src='" + props.TodosporMexico[0].logo + "'>"+ " " +  props.TodosporMexico[0].partido + "<br><br>" +"<h6>Trayectoria</h6>" +props.TodosporMexico[0].trayectoria + "<br><br>" + "<h6>Comentarios</h6>" + props.TodosporMexico[0].comentarios +"</div>" 
+  + "<div id='p4'>" + "<h4>"+ props.TodosporMexico[1].nombre + "</h4>"  + props.estado + "<br><br>"+"<img class='foto' src='" + props.TodosporMexico[1].foto +"'>" + "<br><br>" + "<h6>Partido</h6>" + "<img class= 'partidos' src='" + props.TodosporMexico[1].logo + "'>"+ " " +  props.TodosporMexico[1].partido + "<br><br>" +"<h6>Trayectoria</h6>" +props.TodosporMexico[1].trayectoria + "<br><br>" + "<h6>Comentarios</h6>" + props.TodosporMexico[1].comentarios +"</div>"
+  + "<div id='p5'>" + "<h4>"+ props.JuntosHaremos[0].nombre + "</h4>"  + props.estado + "<br><br>"+"<img class='foto' src='" + props.JuntosHaremos[0].foto +"'>" + "<br><br>" + "<h6>Partido</h6>" + "<img class= 'partidos' src='" + props.JuntosHaremos[0].logo + "'>"+ " " +  props.JuntosHaremos[0].partido + "<br><br>" +"<h6>Trayectoria</h6>" +props.JuntosHaremos[0].trayectoria + "<br><br>" + "<h6>Comentarios</h6>" + props.JuntosHaremos[1].comentarios +"</div>"  
+  + "<div id='p6'>" + "<h4>"+ props.JuntosHaremos[1].nombre + "</h4>"  + props.estado + "<br><br>"+"<img class='foto' src='" + props.JuntosHaremos[1].foto +"'>" + "<br><br>" + "<h6>Partido</h6>" + "<img class= 'partidos' src='" + props.JuntosHaremos[1].logo + "'>"+ " " +  props.JuntosHaremos[1].partido + "<br><br>" +"<h6>Trayectoria</h6>" +props.JuntosHaremos[1].trayectoria + "<br><br>" + "<h6>Comentarios</h6>" + props.JuntosHaremos[1].comentarios +"</div>"
+  +"</div>"  :'seleccione')
+}
+
+var candidatosarray = [];
+ for(k=0 ; k<32; k++){
+  for(j=0 ; j<6; j++){
+    candidatosarray.push(statesforfilter.features[k].properties.candidatos[j])
+  };
+ };
+ 
+console.log(candidatosarray)
+
+var htmlsen = "<div id='scroll'><table id='tableSen'>";
+      "<tbody>"
+    for (var i= 0; i< candidatosarray.length; i++){
+      htmlsen+="<tr class='props'>";
+      htmlsen+="<td class='estado'>"+candidatosarray[i].estado+"</td>";
+      htmlsen+="<td class='nombre'>"+candidatosarray[i].nombre+"</td>";
+      htmlsen+="<td class='partido'>"+candidatosarray[i].partido+"</td>";
+      htmlsen+="<td class='coalicion'>"+candidatosarray[i].coalicion+"</td>";  
+      
+         
+  
+          htmlsen+="</tr>";
+    
+    }
+    "</tbody>"
+    htmlsen+="</table></div>";
+  document.getElementById("senadores").innerHTML = htmlsen;
+
+  $("#reset").click(function(){
+        $("tbody tr").show();
+        $( "input:checkbox:checked" ).prop( "checked", false );
+    });
+
+
+ 
+  </script>
+      
+     
+
+</body>
+
+
+
+</html>

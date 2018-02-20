@@ -1,0 +1,62 @@
+
+
+.header {
+    padding-top: 90px;
+}
+
+.timeline {
+    margin-bottom: 0px;
+}
+
+
+.lineas {
+ 
+    padding-left: 6%;
+
+}
+
+
+.titulo {
+    padding-top: 4%;
+    padding-left: 6%;
+}
+
+.foto {
+    width: 95%;
+    border-radius: 40%;
+}
+
+.leg {
+   
+padding-bottom: 3%;
+padding-left: 8%;
+font-size: 13px;
+color:#8a8a8a;
+font-weight: 600;
+}
+
+.title{
+    margin-bottom: 2px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.icon {
+padding-right:2%; 
+}
+
+.padd {
+    padding-top: 7%;
+}
+
+.pad-der {
+    padding-right: 6%;
+   
+}
+
+
+
+.amlo {
+    padding-right: 0;
+}
+

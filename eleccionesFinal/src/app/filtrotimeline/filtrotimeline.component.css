@@ -1,0 +1,48 @@
+
+
+.linea {
+ 
+    padding-left: 6%;
+    padding-top: 30px;
+    background-color:#F7F7F7;
+    padding-bottom: 45px;
+
+}
+
+.pad-der {
+    padding-right: 6%;
+   
+}
+
+h5 {
+ font-size: 16px !important;
+ font-weight: bold;
+
+}
+
+label {
+ font-size : 14px;
+
+}
+
+tr {
+    padding: 10px;  
+  }
+  
+  #scroll {
+      overflow: scroll;
+      height: 600px;
+  }
+
+
+table {
+    border-collapse: collapse;
+}
+
+table, tbody ,tr, td {
+    border: none;
+        
+}
+
+        tr:nth-child(even) {background: #f2f2f2}
+        tr:nth-child(odd) {background: #FFF}
