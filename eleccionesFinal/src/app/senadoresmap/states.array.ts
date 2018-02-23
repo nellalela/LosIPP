@@ -31,7 +31,7 @@ export var states = {
  "properties":{
    "id": 1,
    "estado":"Aguascalientes",
-   "PorMexico": [
+   "candidatos": [
     {
       "nombre": "José Ángel González Serna",
       "foto": "https://i.imgur.com/AJXcAm8.jpg",
@@ -55,8 +55,7 @@ export var states = {
       "coalicion": "Por México al Frente",
       "estado":"Aguascalientes"
       
-    }],
-    "TodosporMexico": [
+    },
       {
         "nombre": " Lorena Martínez Rodríguez",
         "foto": " http://alchileaguascalientes.com/wp-content/uploads/2015/05/Lorena.jpg", 
@@ -81,9 +80,7 @@ export var states = {
         "coalicion": "PRI",
         "estado":"Aguascalientes",
         
-      }],
-
-      "JuntosHaremos": [
+      },
         {
           "nombre": "Daniel Gutiérrez Castorena",
           "foto": "https://i1.wp.com/www.lja.mx/wp-content/uploads/2015/04/16482204303_3b92c43d05_z-1.jpg?resize=400%2C242",
@@ -123,7 +120,7 @@ export var states = {
     "properties":{
      "id": 2,
      "estado":"Baja California",
-     "PorMexico": [
+     "candidatos": [
       {
         "nombre": "Jorge Ramos Hernández",
         "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218480.jpg",
@@ -147,9 +144,7 @@ export var states = {
         "coalicion": "Por México al Frente",
         "estado":"Baja California"
        
-      }],
-      
-      "TodosporMexico": [
+      },
         {
           "nombre": " Alejandro Arregui Ibarra",
           "foto": "http://codiceenlinea.com/wp-content/uploads/2017/07/Los-resultados-del-Sistema-Estatal-Anticorrupci%C3%B3n-depender%C3%A1n-de-su-implementaci%C3%B3n-Alejandro-Arregui-1.jpg ",
@@ -174,9 +169,7 @@ export var states = {
           "coalicion": "PRI",
           "estado":"Baja California"
           
-        }],
-
-        "JuntosHaremos": [
+        },
           {
             "nombre": "Jaime Bonilla Valdéz ",
             "foto": "http://static.adnpolitico.com/media/2012/11/12/jaime-bonilla-valdez.jpg ",
@@ -216,7 +209,7 @@ export var states = {
       "properties":{
         "id": 3,
         "estado":"Baja California Sur",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " Francisco Pelayo Covarrubias",
             "foto": "http://anac.mx/wp-content/uploads/2016/08/francisco-pelayo-covarrubias-presidente-municipal-comondu.jpg",
@@ -240,8 +233,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado":"Baja California Sur",
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Juan Alberto Federico Valdivia Alvarado",
               "foto": "https://formulabcs.com/wp-content/uploads/2012/06/Diputado-por-BCS-Juan-Alberto-Valdivia-Alvarado.jpg",
@@ -266,9 +258,7 @@ export var states = {
               "coalicion": "PRI",
               "estado":"Baja California Sur",
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Víctor Manuel Castro Cosío",
                 "foto": "http://sitl.diputados.gob.mx/LXI_leg/fotos_lxi/026.jpg",
@@ -305,7 +295,7 @@ export var states = {
       "properties":{
         "id": 4,
         "estado":"Campeche",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "Yolanda Guadalupe Valladares Valle",
             "foto": "http://comunicacampeche.com.mx/Imagenes/suydudhiuuwieuwiew.jpg",
@@ -329,8 +319,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado":"Campeche"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -355,9 +344,7 @@ export var states = {
               "coalicion": "Todos por México",
               "estado":"Campeche"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -395,7 +382,7 @@ export var states = {
       "properties":{
         "id": 7,
         "estado": "Chiapas",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -419,8 +406,7 @@ export var states = {
             "coalicion": " ",
             "estado": "Chiapas"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -445,9 +431,7 @@ export var states = {
               "coalicion": " ",
               "estado": "Chiapas"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Óscar Gurría Penagos",
                 "foto": "https://pbs.twimg.com/profile_images/617445996323188736/YBea67f6.jpg",
@@ -485,7 +469,7 @@ export var states = {
       "properties":{
          "id": 8,
           "estado": "Chihuahua",
-          "PorMexico": [
+          "candidatos": [
             {
               "nombre": "Gustavo Enrique Madero Muñoz",
               "foto": "https://www.eleconomista.com.mx/__export/1506899244969/sites/eleconomista/img/2017/10/01/gustavo_madero_220917.jpg_73367373.jpg",
@@ -509,8 +493,7 @@ export var states = {
               "coalicion": "Por México al  Frente",
               "estado": "Chihuahua"
               
-            }],
-            "TodosporMexico": [
+            },
               {
                 "nombre": "José Reyes Baeza Terrazas",
                 "foto": "http://www.gob.mx/cms/uploads/structure/main_image/395/2-Jose_Reyes_Baeza.jpg",
@@ -535,9 +518,7 @@ export var states = {
                 "coalicion": "PRI",
                 "estado": "Chihuahua"
                 
-              }],
-  
-              "JuntosHaremos": [
+              },
                 {
                   "nombre": "Bertha Alicia Caraveo Camarena",
                   "foto": "http://diario.mx/micrositios/Elecciones-2015/images/fichas/distrito3/bertha-caraveo-morena.jpg",
@@ -575,7 +556,7 @@ export var states = {
       "properties":{
         "id": 5,
         "estado": "Coahuila",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "José Guillermo Anaya Llamas*",
             "foto": "https://www.portalpolitico.tv/sites/portalpolitico.tv/files/styles/width_800/public/photos/noticia/guillermo_anaya.jpg?itok=nS5jOqPZ",
@@ -599,8 +580,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Coahuila"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Verónica Martínez García",
               "foto": "http://www.eldiariodecoahuila.com.mx/u/fotografias/fotosnoticias/2017/1/10/508577.jpg",
@@ -625,9 +605,7 @@ export var states = {
               "coalicion": "Todos por México",
               "estado": "Coahuila"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Armando Guadiana Tijerina",
                 "foto": "http://www.radiozocalo.com.mx/radio/wp-content/uploads/2016/01/guadiana.jpg",
@@ -665,7 +643,7 @@ export var states = {
       "properties":{
         "id": 10,
         "estado": "Durango",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "José Ramón Enriquez Herrera",
             "foto": "https://movimientociudadano.mx/sites/default/archivos/candidatos2013/drenriquez.png",
@@ -689,8 +667,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Durango"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "María del Rocío Rebollo Mendoza",
               "foto": "http://sitl.diputados.gob.mx/LXIII_leg/fotos_lxiiiconfondo/098_FOTO_CHICA.jpg",
@@ -715,9 +692,7 @@ export var states = {
               "coalicion": "PRI",
               "estado": "Durango"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Otniel García Navarro",
                 "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219031.jpg",
@@ -755,7 +730,7 @@ export var states = {
       "properties":{
         "id": 11,
         "estado": "Guanajuato",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "Alejandra Noemí Raynoso Sánchez",
             "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218802.jpg",
@@ -779,8 +754,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Guanajuato"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Azul Etcheverry Aranda",
               "foto": "http://sitl.diputados.gob.mx/LXIII_leg/fotos_lxiiiconfondo/329_FOTO_CHICA.jpg",
@@ -805,9 +779,7 @@ export var states = {
               "coalicion": "PRI",
               "estado": "Guanajuato"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Martha Lucía 'Malú' Micher Camarena",
                 "foto": "http://static.adnpolitico.com/media/2012/11/12/martha-lucia-micher-camarena.jpg",
@@ -845,7 +817,7 @@ export var states = {
       "properties":{
          "id": 18,
           "estado": "Nayarit",
-          "PorMexico": [
+          "candidatos": [
             {
               "nombre": "José Ramón Cambero Pérez",
               "foto": "http://www.pannayarit.com.mx/Transparencia/img/Ramon_Cambero_350x357.jpg",
@@ -869,8 +841,7 @@ export var states = {
               "coalicion": "Por México al Frente",
               "estado": "Nayarit"
               
-            }],
-            "TodosporMexico": [
+            },
               {
                 "nombre": "Manuel Narváez Navarro",
                 "foto": "http://diariogenteypoder.com/fotos/150616-g30.jpg",
@@ -895,9 +866,7 @@ export var states = {
                 "coalicion": "PRI",
                 "estado": "Nayarit"
                 
-              }],
-  
-              "JuntosHaremos": [
+              },
                 {
                   "nombre": "Mirna Manjarrez Valle*",
                   "foto": "http://nnc.mx/imagenes/2018/01/1516680105.jpg",
@@ -934,7 +903,7 @@ export var states = {
       "properties":{
         "id": 24,
         "estado": "San Luis Potosí",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "Érika Irazema Briones Pérez",
             "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9221530.jpg",
@@ -960,8 +929,7 @@ export var states = {
             
           
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Luis Antonio Mahbub Sarquis",
               "foto": "https://pbs.twimg.com/profile_images/455446951014563840/uoJz05LK.jpeg",
@@ -986,9 +954,7 @@ export var states = {
               "coalicion": "Todos por México",
               "estado": "San Luis Potosí"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Primo Dothé Mata",
                 "foto": "https://www.ourcampaigns.com/images/candidates/b354/FullC354678D2015-01-01.jpg",
@@ -1026,7 +992,7 @@ export var states = {
       "properties":{ 
          "id": 26,
          "estado": "Sonora",
-         "PorMexico": [
+         "candidatos": [
           {
             "nombre": "Luis Gerardo Serrato Castell*",
             "foto": "http://www.congresoson.gob.mx/Images/fotos_dip/dip_199.jpg",
@@ -1050,8 +1016,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Sonora"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Sylvana Beltrones Sánchez",
               "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218275.jpg",
@@ -1076,9 +1041,7 @@ export var states = {
               "coalicion": "Todos por México",
               "estado": "Sonora"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Lilly Téllez",
                 "foto": "https://www.eldictamen.mx/wp-content/uploads/2018/01/20151002142607_97.jpg",
@@ -1117,7 +1080,7 @@ export var states = {
       "properties":{ 
          "id": 25,
           "estado": "Sinaloa",
-          "PorMexico": [
+          "candidatos": [
             {
               "nombre": "Héctor Melesio Cuén Ojeda*",
               "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/H%C3%A9ctor_Melesio_Cu%C3%A9n_Ojeda.jpg/220px-H%C3%A9ctor_Melesio_Cu%C3%A9n_Ojeda.jpg",
@@ -1141,8 +1104,7 @@ export var states = {
               "coalicion": "Por México al Frente",
               "estado": "Sinaloa"
               
-            }],
-            "TodosporMexico": [
+            },
               {
                 "nombre": "Mario Zamora Gastélum",
                 "foto": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mario_Zamora_Gastelum.jpg",
@@ -1167,9 +1129,7 @@ export var states = {
                 "coalicion": "Todos por México",
                 "estado": "Sinaloa"
                 
-              }],
-  
-              "JuntosHaremos": [
+              },
                 {
                   "nombre": "Rubén Rocha Moya",
                   "foto": "http://porlospasillos.com.mx/wp-content/uploads/2017/12/rocha.jpg",
@@ -1207,7 +1167,7 @@ export var states = {
 "properties":{
   "id": 28,
   "estado": "Tamaulipas",
-  "PorMexico": [
+  "candidatos": [
     {
       "nombre": "Ismael García Cabeza de Vaca",
       "foto": "http://laprensa.mx/upload/foto/40/3/8/Ismael%20Garc%C3%ADa%20Cabeza%20de%20Vaca.jpg",
@@ -1231,8 +1191,7 @@ export var states = {
       "coalicion": "Por México al Frente",
       "estado": "Tamaulipas"
       
-    }],
-    "TodosporMexico": [
+    },
       {
         "nombre": "Yahleel Abdalá Carmona",
         "foto": "http://sitl.diputados.gob.mx/LXIII_leg/fotos_lxiiiconfondo/043_FOTO_CHICA.jpg",
@@ -1257,9 +1216,7 @@ export var states = {
         "coalicion": "PRI",
         "estado": "Tamaulipas"
         
-      }],
-
-      "JuntosHaremos": [
+      },
         {
           "nombre": "José Ramón 'JR' Gómez Leal*",
           "foto": "http://i2.wp.com/www.reynosanews.com/wp-content/uploads/2016/05/jr2.jpg?fit=600%2C403",
@@ -1298,7 +1255,7 @@ export var states = {
       "properties":{
          "id": 31,
          "estado": "Yucatán",
-         "PorMexico": [
+         "candidatos": [
           {
             "nombre": "Joaquín Jesús Díaz Mena*",
             "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9218518.jpg",
@@ -1322,8 +1279,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Yucatán"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Jorge Carlos Ramírez Marín",
               "foto": "https://lideresmexicanos.com/wp-content/uploads/2016/06/Ramirez-Marin-Jorge-Carlos-1.jpg",
@@ -1348,9 +1304,7 @@ export var states = {
               "coalicion": "Todos por México",
               "estado": "Yucatán"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -1389,7 +1343,7 @@ export var states = {
       "properties":{ 
         "id": 12,
         "estado": "Guerrero",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "Beatriz Mojica Morga",
             "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Beatriz_Mojica_Morga.png/220px-Beatriz_Mojica_Morga.png",
@@ -1413,8 +1367,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Guerrero"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Gabriela Bernal Reséndiz",
               "foto": "http://pri.org.mx/afnac/FotoFirma/Foto/134800.jpg",
@@ -1439,9 +1392,7 @@ export var states = {
               "coalicion": "Todos por México",
               "estado": "Guerrero"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "José Félix Salgado Macedonio",
                 "foto": "http://www.eluniversal.com.mx/img/2006/05/Est/Salgado0805.jpg",
@@ -1479,7 +1430,7 @@ export var states = {
       "properties":{
         "id": 16,
         "estado": "Michoacán",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "Carlos Torres*",
             "foto": "http://prdmichoacan.org/wp-content/uploads/2016/05/adsas-1-250x250.jpg",
@@ -1503,8 +1454,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Michoacán"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Juan Antonio Ixtláhuac Orihuela",
               "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219596.jpg",
@@ -1529,9 +1479,7 @@ export var states = {
               "coalicion": "PRI",
               "estado": "Michoacán"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Blanca Estela Piña Gudiño",
                 "foto": "http://www.encontactodirecto.com/wp-content/uploads/2017/12/DSCN2257-1.jpg",
@@ -1570,7 +1518,7 @@ export var states = {
 "properties":{
   "id": 20,
   "estado": "Oaxaca",
-  "PorMexico": [
+  "candidatos": [
     {
       "nombre": "Samuel Gurrión Matías",
       "foto": "http://e-oaxaca.com/sites/default/files/dip._samuel_gurrion_exhorto_1_0.jpg",
@@ -1594,8 +1542,7 @@ export var states = {
       "coalicion": "Por México al Frente",
       "estado": "Oaxaca"
       
-    }],
-    "TodosporMexico": [
+    },
       {
         "nombre": " ",
         "foto": " ",
@@ -1620,9 +1567,7 @@ export var states = {
         "coalicion": "Todos por México",
         "estado": "Oaxaca"
         
-      }],
-
-      "JuntosHaremos": [
+      },
         {
           "nombre": "Susana Harp Iturribarría",
           "foto": "http://www.endorfina.mx/wp-content/uploads/2016/04/Susana-Harp-IP-900x600.jpg",
@@ -1661,7 +1606,7 @@ export var states = {
       "properties":{
         "id": 23,
        "estado": "Quintana Roo",
-       "PorMexico": [
+       "candidatos": [
         {
           "nombre": "Mayuli Latifa Martínez Simón",
           "foto": "http://radioformulaqr.com/noticias/wp-content/uploads/2016/12/Mayuli-Latifa-Mart%C3%ADnez-Sim%C3%B3n-718x400.jpg",
@@ -1685,8 +1630,7 @@ export var states = {
           "coalicion": "Por México al Frente",
           "estado": "Quintana Roo"
           
-        }],
-        "TodosporMexico": [
+        },
           {
             "nombre": "Krinagemma Rodríguez Contreras",
             "foto": "https://pbs.twimg.com/profile_images/838224583035617280/n2QTkhCW_400x400.jpg",
@@ -1711,9 +1655,7 @@ export var states = {
             "coalicion": "Todos por México",
             "estado": "Quintana Roo"
             
-          }],
-
-          "JuntosHaremos": [
+          },
             {
               "nombre": " ",
               "foto": " ",
@@ -1751,7 +1693,7 @@ export var states = {
       "properties":{
         "id": 29,
         "estado": "Tlaxcala",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "Alberto Amaro*",
             "foto": "http://fotos.e-tlaxcala.mx/etlaxcala_img_2822.jpg",
@@ -1775,8 +1717,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Tlaxcala"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Anabel Alvarado Varela",
               "foto": "http://sitl.diputados.gob.mx/LXIII_leg/fotos_lxiiiconfondo/092_FOTO_CHICA.jpg",
@@ -1801,9 +1742,7 @@ export var states = {
               "coalicion": "Todos por México",
               "estado": "Tlaxcala"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Ana Lilia Rivera Rivera",
                 "foto": "http://www.lajornadadeoriente.com.mx/2011/01/14/tlaxcala/imgs/t-tla1-05.jpg",
@@ -1841,7 +1780,7 @@ export var states = {
       "properties":{
         "id": 19,
         "estado": "Nuevo León",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "Víctor Oswaldo Fuentes Solís",
             "foto": "https://regiando.com/wp-content/uploads/2014/10/victor-fuentes.jpg",
@@ -1865,8 +1804,7 @@ export var states = {
             "coalicion": "PAN",
             "estado": "Nuevo León"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Jorge Mendoza Garza",
               "foto": "http://sitl.diputados.gob.mx/LXII_leg/fotos_lxii/288.JPG",
@@ -1891,9 +1829,7 @@ export var states = {
               "coalicion": "PRI",
               "estado": "Nuevo León"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Álvaro Suárez Garza",
                 "foto": "http://info7rm.blob.core.windows.net.optimalcdn.com/images/2017/12/01/alvaro-suarez-garza.jpg",
@@ -1930,7 +1866,7 @@ export var states = {
       "properties":{
          "id": 17,
           "estado": "Morelos",
-          "PorMexico": [
+          "candidatos": [
             {
               "nombre": "Teresa Domínguez Rivera*",
               "foto": "http://directorio.morelos.gob.mx//img/fotosfuncionarios/1844_2017-10-23_09-55-03.jpg",
@@ -1954,8 +1890,7 @@ export var states = {
               "coalicion": "PRD",
               "estado": "Morelos"
               
-            }],
-            "TodosporMexico": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -1980,9 +1915,7 @@ export var states = {
                 "coalicion": "Todos por México",
                 "estado": "Morelos"
                 
-              }],
-  
-              "JuntosHaremos": [
+              },
                 {
                   "nombre": " ",
                   "foto": " ",
@@ -2020,7 +1953,7 @@ export var states = {
       "properties":{
         "id": 27,
         "estado": "Tabasco",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "Juan Manuel Fócil Pérez",
             "foto": "http://elindependiente.mx/fotos_notas/joel_hace_ruido_24092012.JPG",
@@ -2044,8 +1977,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Tabasco"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Candita Victoria Gil Jiménez",
               "foto": "https://sibillatellez.files.wordpress.com/2016/10/captura-de-pantalla-2016-10-16-a-las-22-07-43.png",
@@ -2070,9 +2002,7 @@ export var states = {
               "coalicion": "PRI",
               "estado": "Tabasco"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Mónica Fernández Balboa",
                 "foto": "http://labrecha.me/wp-content/uploads/2013/07/monica.jpg?w=460",
@@ -2111,7 +2041,7 @@ export var states = {
       "properties":{
          "id": 15,
           "estado": "Estado de México",
-          "PorMexico": [
+          "candidatos": [
             {
               "nombre": "Juan Zepeda Hernández",
               "foto": "https://pbs.twimg.com/profile_images/871530837317210113/OaREWJHY.jpg",
@@ -2135,8 +2065,7 @@ export var states = {
               "coalicion": "Por México al Frente",
               "estado": "Estado de México"
               
-            }],
-            "TodosporMexico": [
+            },
               {
                 "nombre": "César Camacho Quiroz",
                 "foto": "https://lideresmexicanos.com/wp-content/uploads/2016/06/Camacho-Quiroz-Cesar-1.jpg",
@@ -2161,9 +2090,7 @@ export var states = {
                 "coalicion": "Todos por México",
                 "estado": "Estado de México"
                 
-              }],
-  
-              "JuntosHaremos": [
+              },
                 {
                   "nombre": "Delfina Gómez Álvarez",
                   "foto": "http://clicmx.com/wp-content/uploads/2017/07/delfina-gomez.jpg",
@@ -2202,7 +2129,7 @@ export var states = {
       "properties":{
         "id": 32,
         "estado": "Zacatecas",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "Pedro de León Mojarro*",
             "foto": "https://cdn.oem.com.mx/elsoldezacatecas/2016/11/pedrodeleon.jpg",
@@ -2226,8 +2153,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Zacatecas"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Claudia Edith Anaya Mota",
               "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219562.jpg",
@@ -2252,9 +2178,7 @@ export var states = {
               "coalicion": "Todos por México",
               "estado": "Zacatecas"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Soledad Luévano Cantú",
                 "foto": "http://www.sinembargo.mx/wp-content/uploads/2016/07/1916261_1168895229818043_4077363884645558453_n.jpg",
@@ -2291,7 +2215,7 @@ export var states = {
       },"properties":{
         "id": 14,
         "estado": "Jalisco",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "José Clemente Castañeda Hoeflich",
             "foto": "http://sitl.diputados.gob.mx/LXIII_leg/fotos_lxiiiconfondo/359_FOTO_CHICA.jpg",
@@ -2315,8 +2239,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Jalisco"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Hugo Contreras Zepeda",
               "foto": "http://transparencia.congresojal.gob.mx/repositorio/fotos_diputados/HUGO_CONTRERAS_ZEPEDA.jpg",
@@ -2341,9 +2264,7 @@ export var states = {
               "coalicion": "PRI",
               "estado": "Jalisco"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": " ",
                 "foto": " ",
@@ -2385,7 +2306,7 @@ export var states = {
       "properties":{ 
          "id": 21,
         "estado": "Puebla",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": " ",
             "foto": " ",
@@ -2409,8 +2330,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Puebla"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Juan Carlos Lastiri Quirós",
               "foto": "http://www.gob.mx/cms/uploads/structure/main_image/122/Juan_Carlos_Lastiri_Quiros_1.jpg",
@@ -2435,9 +2355,7 @@ export var states = {
               "coalicion": "PRI",
               "estado": "Puebla"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Armando Armenta Mier",
                 "foto": "https://cdn.proceso.com.mx/media/2017/04/Alejandro_Armenta_Mier-c-702x468.jpg",
@@ -2475,7 +2393,7 @@ export var states = {
       "properties":{
         "id": 13,
         "estado": "Hidalgo",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "José Guadarrama Márquez*",
             "foto": "http://noticiasenfasis.com.mx/wp-content/uploads/2017/12/Jos%C3%A9-Guadarrama-busca-integrar-el-Senado-por-tercera-ocasi%C3%B3n-niega-ser-un-22chapul%C3%ADn22.jpg",
@@ -2499,8 +2417,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Hidalgo"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Nuvia Magdalena Mayorga Delgado",
               "foto": "http://www.redpolitica.mx/sites/default/files/1082.jpg?1386179745",
@@ -2525,9 +2442,7 @@ export var states = {
               "coalicion": "Todos por México",
               "estado": "Hidalgo"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Julio Menchaca Salazar",
                 "foto": "https://joelsan.files.wordpress.com/2009/08/julio-ramon-menchaca-salazar.jpg?w=160&h=205",
@@ -2566,7 +2481,7 @@ export var states = {
       "properties":{ 
         "id": 30,
          "estado": "Veracruz",
-         "PorMexico": [
+         "candidatos": [
           {
             "nombre": "Julen Rementería del Puerto",
             "foto": "http://www.veracruz.gob.mx/wp-content/uploads/2016/11/JulenRementeriadelPuerto.png",
@@ -2590,8 +2505,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Veracruz"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Juan Nicolás Callejas Roldán",
               "foto": "http://www.gobernantes.com/fotos/2016-12-20/155273_4x.jpg",
@@ -2616,9 +2530,7 @@ export var states = {
               "coalicion": "PRI",
               "estado": "Veracruz"
               
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Norma Rocío Nahle García",
                 "foto": "http://sil.gobernacion.gob.mx/Archivos/Fotos/9219558.jpg",
@@ -2656,7 +2568,7 @@ export var states = {
       "properties":{
         "id": 22,
         "estado": "Querétaro",
-        "PorMexico": [
+        "candidatos": [
           {
             "nombre": "Mauricio Kuri González*",
             "foto": "https://codiceinformativo.com/wp-content/uploads/2013/01/mkuri.jpg",
@@ -2680,8 +2592,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Querétaro"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Ernesto Luque Hudson",
               "foto": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ernesto_Luque_Hudson.jpg",
@@ -2705,9 +2616,7 @@ export var states = {
               "logo": logoPRI,
               "coalicion": "Por México al Frente",
               "estado": "Querétaro"
-            }],
-
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Carlos Peñafiel Soto*",
                 "foto": "https://pbs.twimg.com/profile_images/869035078688456704/VCAhlKsL.jpg",
@@ -2747,7 +2656,7 @@ export var states = {
     "properties":{
     "id": 9,
     "estado": "Ciudad de México",
-    "PorMexico": [
+    "candidatos": [
       {
         "nombre": "Salomón Chertorivski*",
         "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Salomón_Chertorivski_Woldenberg.jpg/220px-Salomón_Chertorivski_Woldenberg.jpg",
@@ -2770,8 +2679,7 @@ export var states = {
         "coalicion": "Por México al Frente",
         "estado": "Ciudad de México"
         
-      }],
-      "TodosporMexico": [
+      },
         {
           "nombre": "María Beatriz Pagés Llergo Rebollar ",
           "foto": "http://pri.org.mx/BancoInformacion/files/Imagenes/14629-1-20_02_12.png",
@@ -2796,9 +2704,7 @@ export var states = {
           "coalicion": "PRI",
           "estado": "Ciudad de México"
           
-        }],
-
-        "JuntosHaremos": [
+        },
           {
             "nombre": "Martí Batres Guadarrama",
             "foto": "http://divergentemx.com/wp-content/uploads/2017/06/a8bdfa8a-af66-4d08-842f-3402e4d17f87.jpg",
@@ -2839,7 +2745,7 @@ export var states = {
         "properties":{
           "id": 6,
          "estado": "Colima",
-         "PorMexico": [
+         "candidatos": [
           {
             "nombre": "Leoncio Alfonso Morán Sánchez",
             "foto": "http://radiolevy.com/wp-content/uploads/2014/11/leoncio-moran-miniatura.jpg",
@@ -2863,8 +2769,7 @@ export var states = {
             "coalicion": "Por México al Frente",
             "estado": "Colima"
             
-          }],
-          "TodosporMexico": [
+          },
             {
               "nombre": "Gabriela Benavides Cobos*",
               "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Gabriela_Benavides.jpg/220px-Gabriela_Benavides.jpg",
@@ -2889,9 +2794,7 @@ export var states = {
               "coalicion": "Todos por México",
               "estado": "Colima"
               
-            }],
-    
-            "JuntosHaremos": [
+            },
               {
                 "nombre": "Joel Padilla Peña",
                 "foto": "http://congresocol.gob.mx/web/Sistema/uploads/Diputados/joel.jpg",

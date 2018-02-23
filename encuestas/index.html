@@ -14,6 +14,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
 </head>
 <body>
 
@@ -29,12 +31,12 @@
         <div class=" principal row">
 
             <div class=" tipoenc col-lg-1 col-md-2">
-                    <a class="btn btn-info tipo" href="#" role="button">Presidencial</a>
+                    <a class="btn btn-info tipo" href="#img4" >Presidencial</a>
                     <a class="btn btn-info tipo" href="#" role="button">Legislativa</a>
 
                     <h3> Elecciones Locales</h3>
 
-                    <a class="btn btn-outline-info tipo" href="#" role="button">Chiapas</a>
+                    <a class="btn btn-outline-info tipo" href="#img3" >Chiapas</a>
                     <a class="btn btn-outline-info tipo" href="#" role="button">CDMX</a>
                     <a class="btn btn-outline-info tipo" href="#" role="button">Guanajuato</a>
                     <a class="btn btn-outline-info tipo" href="#" role="button">Jalisco</a>
@@ -45,10 +47,30 @@
                     <a class="btn btn-outline-info tipo" href="#" role="button">Yucatán</a>
 
             </div>
-
-            <div class="col-lg-6 col-md-7">
+        
+            <div class="col-lg-7 col-md-7">
+                    <div class= "target">
+            <div id="img1">
+                    <img src="https://www.chiquipedia.com/imagenes/imagenes-animo09.jpg">
 
             </div>
+            <div id="img2">
+                    <img src="https://www.chiquipedia.com/imagenes/imagenes-amor02.jpg">
+
+            </div>
+            <div id="img3">
+                    <img src="http://vinculando.org/wp-content/uploads/imagenes-con-energia-positiva.jpg">
+
+            </div>
+
+            <div id="img4">
+                    <img src="http://vinculando.org/wp-content/uploads/imagenes-con-energia-positiva.jpg">
+
+            </div>
+
+
+            </div>
+        </div>
 
             <div class="col-lg-3 col-md-3 ">
 
@@ -57,8 +79,8 @@
                     <div class="row">
 
                     <div class="col-6">
-                            <a href="#" class="encuestadoras"><img src="https://i.imgur.com/JBlGVQR.png" alt=""><br>El Financiero</a>
-                            <a href="#" class="encuestadoras"><img src="http://www.missink.com.mx/wp-content/uploads/2015/12/reforma_logo3.jpg" alt=""><br> Reforma</a>
+                            <a href="#img1" class="encuestadoras"><img src="https://i.imgur.com/JBlGVQR.png" alt=""><br>El Financiero</a>
+                            <a href="#img2" class="encuestadoras"><img src="http://www.missink.com.mx/wp-content/uploads/2015/12/reforma_logo3.jpg" alt=""><br> Reforma</a>
                             <a href="#" class="encuestadoras"><img src="http://gabinete.mx/wp-content/uploads/logotipos/logo_gce_0001.png" alt=""><br>GBM</a>
                             <a href="#" class="encuestadoras"><img src="http://datamx.io/uploads/group/20141125-192354.185303logobl.png" alt=""><br>Buendía & Laredo</a>
                             <a href="#" class="encuestadoras"><img src="http://www.zacateks.com/wp-content/uploads/2013/04/mitofsky.jpg" alt=""><br>Consulta Mitofsky</a>
@@ -88,6 +110,20 @@
     </div>
 
 </div>
+
+
+<div id = "Dropdown"></div>
+    <div id="graph"></div>
+
+
+<script>
+
+var margin = {top: 60, right: 100, bottom: 20, left: 80},
+  width = 850 - margin.left - margin.right,
+  height = 370 - margin.top - margin.bottom;
+
+
+</script>
 
     
 </body>

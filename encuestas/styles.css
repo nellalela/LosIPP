@@ -24,3 +24,23 @@ margin-top: 10px;
 padding-bottom: 30px;
 
   }
+
+  .target > div {
+    display:none;
+}
+
+.target > div:target{
+    display:block;
+}
+
+img {
+width: 600px;
+height: 350px;
+
+}
+
+.target {
+
+  padding-left: 100px;
+  padding-top: 50px;
+}

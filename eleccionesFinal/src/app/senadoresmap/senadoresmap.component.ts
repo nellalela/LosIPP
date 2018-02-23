@@ -102,6 +102,7 @@ function onEachFeature(feature, layer){
    var geojson = L.geoJson(states, {
   onEachFeature: onEachFeature
 }).addTo(mymap);
+ console.log(geojson);
 
 
 
@@ -139,3 +140,5 @@ return (props ? "<div class='target'>"+ "<div id='p1'>" + "<h4>"+ props.PorMexic
     
   }
   }
+
+  console.log(states);
